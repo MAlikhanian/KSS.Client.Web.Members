@@ -1,0 +1,54 @@
+{
+  "toolbar": {
+    "description": "Company Software & Systems Management",
+    "saveDraft": "Save Draft",
+    "submit": "Submit"
+  },
+  "form": {
+    "sections": {
+      "softwareSystems": "Software & Systems"
+    },
+    "fields": {
+      "backOfficeSecurities": "Back Office (Securities Exchange)",
+      "backOfficeCommodities": "Back Office (Commodities Exchange)",
+      "onlineTradingSecurities": "Online Trading System (Securities)",
+      "onlineTradingFuturesSecurities": "Online Trading System (Futures - Securities)",
+      "onlineTradingFuturesCommodities": "Online Trading System (Futures - Commodities)",
+      "accountingSystem": "Accounting System",
+      "portfolioManagementSoftware": "Portfolio Management Software",
+      "cmsSoftware": "Website CMS",
+      "callCenterSystem": "Call Center System"
+    },
+    "provider": "Provider",
+    "selectProvider": "Select provider",
+    "selectSoftware": "Select software",
+    "none": "— None —",
+    "messages": {
+      "saved": "Software saved.",
+      "cleared": "Selection cleared.",
+      "noBrokerage": "Select a brokerage to manage its software."
+    }
+  },
+  "grid": {
+    "title": "Software Assignments",
+    "columns": {
+      "category": "Category",
+      "provider": "Provider",
+      "software": "Software"
+    },
+    "addAssignment": "Add Assignment",
+    "editAssignment": "Edit Assignment",
+    "noAssignments": "No software assigned yet.",
+    "selectCategory": "Select category"
+  },
+  "sidebar": {
+    "title": "Software Overview",
+    "totalSystems": "Total Systems",
+    "onlineSystems": "Online Systems",
+    "tradingSystems": "Trading Systems",
+    "supportSystems": "Support Systems",
+    "lastUpdated": "Last Updated",
+    "softwareProfile": "Software Profile",
+    "profileDescription": "Complete your company software information to unlock all features"
+  }
+}

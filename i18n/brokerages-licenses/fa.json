@@ -1,0 +1,98 @@
+{
+  "toolbar": {
+    "description": "مشاهده و مدیریت مجوزهای فعالیت کارگزاری‌ها",
+    "saveDraft": "ذخیره پیش‌نویس",
+    "submit": "ثبت اطلاعات"
+  },
+  "table": {
+    "title": "مجوزهای فعالیت کارگزاری‌ها",
+    "columns": {
+      "brokerage": "کارگزاری",
+      "licenseType": "نوع مجوز",
+      "licenseNumber": "شماره مجوز",
+      "nationalId": "کد ملی",
+      "startDate": "تاریخ شروع",
+      "expireDate": "تاریخ انقضا",
+      "status": "وضعیت",
+      "instituteType": "نوع موسسه",
+      "isExpired": "منقضی شده"
+    },
+    "filters": {
+      "search": "جستجو",
+      "searchPlaceholder": "جستجو در نام، شماره مجوز، کد ملی...",
+      "brokerage": "کارگزاری",
+      "allBrokerages": "همه کارگزاری‌ها",
+      "licenseType": "نوع مجوز",
+      "allTypes": "همه انواع",
+      "status": "وضعیت",
+      "allStatuses": "همه وضعیت‌ها"
+    },
+    "resultsInfo": "نمایش {{count}} مورد از {{total}} نتیجه",
+    "noResults": "نتیجه‌ای یافت نشد",
+    "pagination": {
+      "page": "صفحه {{current}} از {{total}}",
+      "previous": "قبلی",
+      "next": "بعدی"
+    },
+    "badges": {
+      "yes": "بله",
+      "no": "خیر"
+    }
+  },
+  "sidebar": {
+    "title": "آمار مجوزهای فعالیت",
+    "totalLicenses": "مجموع مجوزها",
+    "items": "مورد",
+    "activeLicenses": "مجوزهای فعال",
+    "expiredLicenses": "مجوزهای منقضی شده",
+    "brokeragesCount": "تعداد کارگزاری‌ها",
+    "brokerages": "کارگزاری",
+    "licenseTypes": "انواع مجوز",
+    "types": "نوع",
+    "lastUpdated": "آخرین بروزرسانی",
+    "notYetUpdated": "هنوز بروزرسانی نشده",
+    "profileTitle": "مجوزهای فعالیت",
+    "profileDescription": "اطلاعات مجوزهای فعالیت کارگزاری‌ها"
+  },
+  "form": {
+    "licensesCount": "مجوز",
+    "licenseNumber": "مجوز {{number}}",
+    "noLicenses": "هنوز مجوزی اضافه نشده است",
+    "clickAddToStart": "برای شروع روی 'افزودن مجوز' کلیک کنید",
+    "fields": {
+      "licenseTypeId": "شناسه نوع مجوز",
+      "newLicenseTypeId": "شناسه نوع مجوز جدید",
+      "licenseStatusId": "شناسه وضعیت مجوز",
+      "instituteTypeId": "شناسه نوع موسسه",
+      "instituteKindId": "شناسه نوع موسسه",
+      "instituteKind": "نوع موسسه",
+      "licenseStatusDescription": "توضیحات وضعیت مجوز",
+      "trusteeId": "شناسه امانت‌دار",
+      "trusteeContractStart": "شروع قرارداد امانت‌دار",
+      "trusteeContractExpire": "انقضای قرارداد امانت‌دار",
+      "industryCategory": "دسته صنعت",
+      "signInIndustry": "ثبت در صنعت"
+    },
+    "placeholders": {
+      "nationalId": "کد ملی را وارد کنید",
+      "licenseTypeId": "شناسه نوع مجوز را وارد کنید",
+      "licenseType": "نوع مجوز را وارد کنید",
+      "newLicenseTypeId": "شناسه نوع مجوز جدید را وارد کنید",
+      "licenseNo": "شماره مجوز را وارد کنید",
+      "licenseStatus": "وضعیت مجوز را وارد کنید",
+      "licenseStatusDescription": "توضیحات وضعیت مجوز را وارد کنید",
+      "instituteTypeId": "شناسه نوع موسسه را وارد کنید",
+      "instituteType": "نوع موسسه را وارد کنید",
+      "instituteKindId": "شناسه نوع موسسه را وارد کنید",
+      "instituteKind": "نوع موسسه را وارد کنید",
+      "trusteeId": "شناسه امانت‌دار را وارد کنید",
+      "industryCategory": "دسته صنعت را وارد کنید",
+      "signInIndustry": "ثبت در صنعت را وارد کنید"
+    },
+    "actions": {
+      "addLicense": "افزودن مجوز",
+      "cancel": "لغو",
+      "save": "ذخیره"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "toolbar": {
+    "description": "Manage members information including shareholders and related parties",
+    "saveDraft": "Save Draft",
+    "submit": "Submit"
+  },
+  "form": {
+    "sectionSelector": {
+      "label": "Member Type",
+      "placeholder": "Select a section",
+      "shareholders": "Shareholders",
+      "relatedPersons": "Related Persons"
+    },
+    "sections": {
+      "shareholders": "Shareholders",
+      "relatedPersons": "Staff and Related Persons"
+    },
+    "fields": {
+      "pickPerson": "Pick a person",
+      "shareholderName": "Shareholder Name",
+      "ownershipType": "Ownership Type",
+      "ownershipPercentage": "Ownership %",
+      "shareCount": "Share Count",
+      "boardRepresentative": "Board Representative",
+      "registrationDate": "Registration Date",
+      "lastUpdateDate": "Last Update Date",
+      "bourseCode": "Bourse Code",
+      "personStatus": "Membership Status",
+      "workLocation": "Work Location",
+      "stockExchange": "Stock Exchange",
+      "position": "Position",
+      "description": "Description"
+    },
+    "placeholders": {
+      "bourseCode": "Enter bourse code",
+      "personStatus": "Select status",
+      "workLocation": "Select work location",
+      "stockExchange": "Select stock exchange",
+      "position": "Select position",
+      "description": "Enter description"
+    },
+    "actions": {
+      "addPerson": "Add Staff",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "messages": {
+      "brokerageRequired": "Please select a brokerage first",
+      "personRequired": "Please pick a person first",
+      "allFieldsRequired": "Please complete all required fields",
+      "itemSaved": "Saved successfully",
+      "itemDeleted": "Deleted successfully",
+      "saveFailed": "Save failed"
+    },
+    "personReadOnly": {
+      "fullName": "Full name",
+      "nationalId": "National ID",
+      "fatherName": "Father name",
+      "dateOfBirth": "Date of birth",
+      "gender": "Gender",
+      "age": "Age",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "postalCode": "Postal code",
+      "notFound": "Person not found"
+    },
+    "education": {
+      "title": "Education & Certificates",
+      "empty": "No education records on file",
+      "certificates": "Certificates",
+      "noCertificates": "—",
+      "present": "Present"
+    },
+    "familyDependents": {
+      "title": "Family / Dependents",
+      "empty": "No dependents on record",
+      "nationalId": "NID"
+    },
+    "holder": {
+      "individual": "Individual",
+      "legalEntity": "Legal Entity",
+      "notFound": "Holder not found"
+    },
+    "shareholders": {
+      "managedElsewhere": "Shareholders are managed on the company page; this section is read-only.",
+      "empty": "No shareholders on record"
+    },
+    "personInfoTitle": "Person Information",
+    "noRelatedPersons": "No related persons added yet",
+    "clickAddToStart": "Click \"Add Person\" to get started",
+    "personNumber": "Person {{number}}",
+    "noBourseCode": "no bourse code",
+    "loadingPerson": "Loading…"
+  },
+  "sidebar": {
+    "title": "Members Information",
+    "totalShareholders": "Total Shareholders",
+    "relatedPersons": "Related Persons",
+    "ownershipDistribution": "Ownership Distribution",
+    "lastUpdated": "Last Updated",
+    "membersProfile": "Members Profile",
+    "profileDescription": "Manage all members-related information in one place"
+  }
+}

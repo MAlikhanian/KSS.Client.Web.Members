@@ -1,0 +1,507 @@
+{
+  "common": {
+    "sections": {
+      "fundSelection": "انتخاب صندوق"
+    },
+    "fields": {
+      "selectedFund": "انتخاب صندوق"
+    },
+    "placeholders": {
+      "selectedFund": "صندوقی را برای ارسال اطلاعات انتخاب کنید"
+    },
+    "search": {
+      "placeholder": "جستجوی صندوق‌ها...",
+      "noResults": "هیچ صندوقی یافت نشد."
+    },
+    "loading": "در حال بارگذاری صندوق‌ها...",
+    "error": "خطا در بارگذاری صندوق‌ها",
+    "selectFund": {
+      "title": "انتخاب صندوق سرمایه‌گذاری",
+      "description": "برای ویرایش اطلاعات، یک صندوق موجود را انتخاب کنید یا برای ثبت صندوق جدید، فیلدها را خالی بگذارید.",
+      "placeholder": "انتخاب صندوق برای ویرایش...",
+      "label": "صندوق سرمایه‌گذاری",
+      "newFund": "ثبت صندوق جدید",
+      "editMode": "حالت ویرایش:"
+    }
+  },
+  "generalInformation": {
+    "toolbar": {
+      "description": "مدیریت اطلاعات عمومی صندوق",
+      "saveDraft": "ذخیره پیش‌نویس",
+      "submit": "ارسال"
+    },
+    "form": {
+      "title": "اطلاعات عمومی",
+      "sections": {
+        "generalInfo": "اطلاعات عمومی",
+        "investmentUnits": "واحدهای سرمایه‌گذاری",
+        "registrationLegal": "اطلاعات ثبتی و حقوقی",
+        "companyRegistration": "اطلاعات ثبتی شرکت",
+        "fundSeoRegistration": "اطلاعات ثبتی صندوق در سازمان بورس",
+        "contactAddress": "اطلاعات تماس و آدرس",
+        "fundOrgans": "ارگان‌های صندوق (نقش‌های کلیدی)",
+        "associationContact": "تماس صندوق با انجمن",
+        "financialInfo": "اطلاعات مالی",
+        "manager": "مدیر",
+        "trustee": "امین",
+        "auditor": "حسابرس"
+      },
+      "groups": {
+        "companyInfo": "اطلاعات شرکت (فقط‌خواندنی)",
+        "fundInfo": "اطلاعات صندوق"
+      },
+      "fields": {
+        "persianName": "نام فارسی",
+        "latinName": "نام لاتین",
+        "preferredUnitsCount": "تعداد واحدهای ممتاز",
+        "ordinaryUnitsInvestors": "واحدهای عادی (سرمایه‌گذاران)",
+        "ordinaryUnitsSeo": "واحدهای عادی (مجاز توسط سازمان بورس)",
+        "establishmentDate": "تاریخ تأسیس",
+        "endOfActivityPeriodSeo": "پایان دوره فعالیت (طبق مجوز سازمان بورس)",
+        "registrationDateCompanies": "تاریخ ثبت (ثبت شرکت‌ها)",
+        "registrationNumberCompanies": "شماره ثبت (ثبت شرکت‌ها)",
+        "registrationPlaceCompanies": "محل ثبت (ثبت شرکت‌ها)",
+        "registrationDateSeo": "تاریخ ثبت (سازمان بورس)",
+        "registrationNumberSeo": "شماره ثبت (سازمان بورس)",
+        "nationalId": "شناسه ملی",
+        "economicCode": "کد اقتصادی",
+        "headOfficeAddress": "آدرس دفتر مرکزی",
+        "headOfficePostalCode": "کد پستی دفتر مرکزی",
+        "poBox": "صندوق پستی",
+        "website": "وب‌سایت",
+        "email": "ایمیل",
+        "managerName": "نام مدیر",
+        "managerRepresentativeName": "نام نماینده مدیر",
+        "managerRepresentativeMobile": "موبایل نماینده مدیر",
+        "trusteeName": "نام امین",
+        "trusteeRepresentativeName": "نام نماینده امین",
+        "trusteeRepresentativeMobile": "موبایل نماینده امین",
+        "auditorName": "نام حسابرس",
+        "auditorRepresentativeName": "نام نماینده حسابرس",
+        "associationLiaisonName": "نام رابط انجمن",
+        "associationLiaisonMobile": "موبایل رابط انجمن",
+        "fiscalYear": "سال مالی",
+        "organMobile": "موبایل"
+      },
+      "messages": {
+        "saveFundFirst": "برای تخصیص ارکان، ابتدا صندوق را ذخیره کنید.",
+        "fundUpdated": "صندوق با موفقیت بروزرسانی شد"
+      },
+      "alerts": {
+        "companyFieldsReadOnly": {
+          "title": "اطلاعات شرکت در این صفحه فقط‌خواندنی است",
+          "description": "برای ویرایش اطلاعات شرکت (نام، ثبت، تماس‌ها و آدرس‌ها) به ",
+          "link": "بخش شرکت ← اطلاعات",
+          "suffix": " مراجعه کنید."
+        }
+      },
+      "errors": {
+        "organAssignFailed": "تخصیص ارکان انجام نشد",
+        "organRemoveFailed": "حذف ارکان انجام نشد"
+      },
+      "placeholders": {
+        "persianName": "نام صندوق به فارسی را وارد کنید",
+        "latinName": "نام صندوق به لاتین را وارد کنید",
+        "preferredUnitsCount": "تعداد واحدهای ممتاز را وارد کنید",
+        "ordinaryUnitsInvestors": "واحدهای عادی برای سرمایه‌گذاران را وارد کنید",
+        "ordinaryUnitsSeo": "واحدهای عادی مجاز توسط سازمان بورس را وارد کنید",
+        "establishmentDate": "تاریخ تأسیس را انتخاب کنید",
+        "endOfActivityPeriodSeo": "پایان دوره فعالیت را انتخاب کنید",
+        "registrationDateCompanies": "تاریخ ثبت شرکت‌ها را انتخاب کنید",
+        "registrationDateSeo": "تاریخ ثبت سازمان بورس را انتخاب کنید",
+        "registrationNumberCompanies": "شماره ثبت را وارد کنید",
+        "registrationPlaceCompanies": "محل ثبت را وارد کنید",
+        "registrationNumberSeo": "شماره ثبت سازمان بورس را وارد کنید",
+        "nationalId": "شناسه ملی را وارد کنید",
+        "economicCode": "کد اقتصادی را وارد کنید",
+        "headOfficeAddress": "آدرس دفتر مرکزی را وارد کنید",
+        "headOfficePostalCode": "کد پستی را وارد کنید",
+        "poBox": "شماره صندوق پستی را وارد کنید",
+        "website": "آدرس وب‌سایت را وارد کنید",
+        "email": "آدرس ایمیل را وارد کنید",
+        "managerName": "نام مدیر را وارد کنید",
+        "managerRepresentativeName": "نام نماینده مدیر را وارد کنید",
+        "managerRepresentativeMobile": "موبایل نماینده مدیر را وارد کنید",
+        "trusteeName": "نام امین را وارد کنید",
+        "trusteeRepresentativeName": "نام نماینده امین را وارد کنید",
+        "trusteeRepresentativeMobile": "موبایل نماینده امین را وارد کنید",
+        "auditorName": "نام حسابرس را وارد کنید",
+        "auditorRepresentativeName": "نام نماینده حسابرس را وارد کنید",
+        "associationLiaisonName": "نام رابط انجمن را وارد کنید",
+        "associationLiaisonMobile": "موبایل رابط انجمن را وارد کنید",
+        "fiscalYear": "سال مالی را وارد کنید",
+        "selectOrganPerson": "انتخاب شخص",
+        "organMobileFromPerson": "از مشخصات شخص خوانده می‌شود"
+      },
+      "actions": {
+        "cancel": "لغو",
+        "save": "ذخیره"
+      }
+    },
+    "sidebar": {
+      "title": "نمای کلی صندوق",
+      "completionRate": "نرخ تکمیل",
+      "verifiedInfo": "اطلاعات تأیید شده",
+      "lastUpdated": "آخرین بروزرسانی",
+      "progress": "پیشرفت این هفته",
+      "fundProfile": "پروفایل صندوق",
+      "profileDescription": "اطلاعات صندوق خود را تکمیل کنید تا تمام ویژگی‌ها را باز کنید"
+    }
+  },
+  "fundManager": {
+    "toolbar": {
+      "description": "مدیریت اطلاعات مدیر صندوق",
+      "saveDraft": "ذخیره پیش‌نویس",
+      "submit": "ارسال"
+    },
+    "form": {
+      "title": "اطلاعات مدیر صندوق",
+      "sections": {
+        "personalInfo": "اطلاعات شخصی",
+        "professionalInfo": "اطلاعات حرفه‌ای",
+        "contactInfo": "اطلاعات تماس",
+        "educationCertificates": "تحصیلات و گواهینامه‌ها"
+      },
+      "fields": {
+        "fundManagerName": "نام",
+        "fundManagerGender": "جنسیت",
+        "fundManagerPosition": "سمت / عنوان",
+        "fundManagerWorkExperience": "سابقه کار",
+        "fundManagerEducationDegree": "مدرک تحصیلی",
+        "fundManagerFieldOfStudy": "رشته تحصیلی",
+        "fundManagerYearOfBirth": "سال تولد",
+        "fundManagerNationalId": "شناسه ملی",
+        "fundManagerMobile": "تلفن همراه",
+        "fundManagerEmail": "ایمیل",
+        "fundManagerProfessionalCertificates": "گواهینامه‌های حرفه‌ای"
+      },
+      "placeholders": {
+        "fundManagerName": "نام مدیر صندوق را وارد کنید",
+        "fundManagerGender": "جنسیت را انتخاب کنید",
+        "fundManagerPosition": "سمت یا عنوان را وارد کنید",
+        "fundManagerWorkExperience": "سابقه کار را وارد کنید",
+        "fundManagerEducationDegree": "مدرک تحصیلی را وارد کنید",
+        "fundManagerFieldOfStudy": "رشته تحصیلی را وارد کنید",
+        "fundManagerYearOfBirth": "سال تولد را وارد کنید",
+        "fundManagerNationalId": "شناسه ملی را وارد کنید",
+        "fundManagerMobile": "شماره تلفن همراه را وارد کنید",
+        "fundManagerEmail": "آدرس ایمیل را وارد کنید",
+        "fundManagerProfessionalCertificates": "گواهینامه‌های حرفه‌ای را وارد کنید"
+      },
+      "options": {
+        "male": "مرد",
+        "female": "زن"
+      },
+      "actions": {
+        "cancel": "لغو",
+        "save": "ذخیره"
+      }
+    },
+    "sidebar": {
+      "title": "نمای کلی مدیر",
+      "completionRate": "نرخ تکمیل",
+      "verifiedInfo": "اطلاعات تأیید شده",
+      "lastUpdated": "آخرین بروزرسانی",
+      "progress": "پیشرفت این هفته",
+      "managerProfile": "پروفایل مدیر",
+      "profileDescription": "اطلاعات مدیر صندوق خود را تکمیل کنید تا تمام ویژگی‌ها را باز کنید"
+    }
+  },
+  "trustee": {
+    "toolbar": {
+      "description": "مدیریت اطلاعات امین",
+      "saveDraft": "ذخیره پیش‌نویس",
+      "submit": "ارسال"
+    },
+    "form": {
+      "title": "اطلاعات امین",
+      "sections": {
+        "personalInfo": "اطلاعات شخصی",
+        "professionalInfo": "اطلاعات حرفه‌ای",
+        "contactInfo": "اطلاعات تماس",
+        "educationCertificates": "تحصیلات و گواهینامه‌ها"
+      },
+      "fields": {
+        "trusteeName": "نام",
+        "trusteeGender": "جنسیت",
+        "trusteePosition": "سمت / عنوان",
+        "trusteeWorkExperience": "سابقه کار",
+        "trusteeEducationDegree": "مدرک تحصیلی",
+        "trusteeFieldOfStudy": "رشته تحصیلی",
+        "trusteeYearOfBirth": "سال تولد",
+        "trusteeNationalId": "شناسه ملی",
+        "trusteeMobile": "تلفن همراه",
+        "trusteeEmail": "ایمیل",
+        "trusteeProfessionalCertificates": "گواهینامه‌های حرفه‌ای"
+      },
+      "placeholders": {
+        "trusteeName": "نام امین را وارد کنید",
+        "trusteeGender": "جنسیت را انتخاب کنید",
+        "trusteePosition": "سمت یا عنوان را وارد کنید",
+        "trusteeWorkExperience": "سابقه کار را وارد کنید",
+        "trusteeEducationDegree": "مدرک تحصیلی را وارد کنید",
+        "trusteeFieldOfStudy": "رشته تحصیلی را وارد کنید",
+        "trusteeYearOfBirth": "سال تولد را وارد کنید",
+        "trusteeNationalId": "شناسه ملی را وارد کنید",
+        "trusteeMobile": "شماره تلفن همراه را وارد کنید",
+        "trusteeEmail": "آدرس ایمیل را وارد کنید",
+        "trusteeProfessionalCertificates": "گواهینامه‌های حرفه‌ای را وارد کنید"
+      },
+      "options": {
+        "male": "مرد",
+        "female": "زن"
+      },
+      "actions": {
+        "cancel": "لغو",
+        "save": "ذخیره"
+      }
+    },
+    "sidebar": {
+      "title": "نمای کلی امین",
+      "completionRate": "نرخ تکمیل",
+      "verifiedInfo": "اطلاعات تأیید شده",
+      "lastUpdated": "آخرین بروزرسانی",
+      "progress": "پیشرفت این هفته",
+      "trusteeProfile": "پروفایل امین",
+      "profileDescription": "اطلاعات امین خود را تکمیل کنید تا تمام ویژگی‌ها را باز کنید"
+    }
+  },
+  "preferredShareholders": {
+    "toolbar": {
+      "description": "مدیریت اطلاعات سهامداران ممتاز",
+      "saveDraft": "ذخیره پیش‌نویس",
+      "submit": "ارسال"
+    },
+    "form": {
+      "title": "اطلاعات سهامداران ممتاز",
+      "sections": {
+        "preferredShareholders": "سهامداران ممتاز"
+      },
+      "fields": {
+        "preferredUnitHolderName": "نام دارنده واحد ممتاز",
+        "preferredUnitHolderType": "نوع دارنده",
+        "preferredUnitOwnershipPercent": "درصد مالکیت از کل واحدهای ممتاز",
+        "preferredUnitsCount": "تعداد واحدهای ممتاز"
+      },
+      "placeholders": {
+        "preferredUnitHolderName": "نام دارنده واحد ممتاز را وارد کنید",
+        "preferredUnitHolderType": "نوع دارنده را انتخاب کنید",
+        "preferredUnitOwnershipPercent": "درصد مالکیت را وارد کنید",
+        "preferredUnitsCount": "تعداد واحدهای ممتاز را وارد کنید"
+      },
+      "options": {
+        "individual": "حقیقی",
+        "legalEntity": "حقوقی"
+      },
+      "actions": {
+        "cancel": "لغو",
+        "save": "ذخیره"
+      }
+    },
+    "sidebar": {
+      "title": "نمای کلی سهامداران",
+      "completionRate": "نرخ تکمیل",
+      "verifiedInfo": "اطلاعات تأیید شده",
+      "lastUpdated": "آخرین بروزرسانی",
+      "progress": "پیشرفت این هفته",
+      "shareholdersProfile": "پروفایل سهامداران",
+      "profileDescription": "اطلاعات سهامداران ممتاز خود را تکمیل کنید تا تمام ویژگی‌ها را باز کنید"
+    }
+  },
+  "marketMakingSymbols": {
+    "toolbar": {
+      "description": "مدیریت اطلاعات نمادهای بازارگردانی",
+      "saveDraft": "ذخیره پیش‌نویس",
+      "submit": "ارسال"
+    },
+    "form": {
+      "title": "اطلاعات نمادهای بازارگردانی",
+      "sections": {
+        "marketMakingSymbols": "نمادهای بازارگردانی"
+      },
+      "fields": {
+        "marketMakingCompanyName": "نام شرکت",
+        "marketMakingCompanySymbol": "نماد شرکت",
+        "market": "بازار",
+        "tradingBoard": "تابلو معاملاتی",
+        "symbolLicenseDate": "تاریخ مجوز افزودن نماد",
+        "minAccumulatedOrder": "حداقل سفارش انباشته",
+        "quoteRange": "دامنه قیمت",
+        "minDailyTradingVolume": "حداقل حجم معاملات روزانه",
+        "avgNavLastEsfand": "میانگین NAV (اسفند سال قبل)"
+      },
+      "placeholders": {
+        "marketMakingCompanyName": "نام شرکت را وارد کنید",
+        "marketMakingCompanySymbol": "نماد شرکت را وارد کنید",
+        "market": "بازار را انتخاب کنید",
+        "tradingBoard": "تابلو معاملاتی را انتخاب کنید",
+        "symbolLicenseDate": "تاریخ مجوز را انتخاب کنید",
+        "minAccumulatedOrder": "حداقل سفارش انباشته را وارد کنید",
+        "quoteRange": "دامنه قیمت را وارد کنید",
+        "minDailyTradingVolume": "حداقل حجم معاملات روزانه را وارد کنید",
+        "avgNavLastEsfand": "میانگین NAV را وارد کنید"
+      },
+      "options": {
+        "tehran": "بورس تهران",
+        "otc": "بازار فرابورس",
+        "commodity": "بورس کالا",
+        "main": "تابلو اصلی",
+        "secondary": "تابلو فرعی"
+      },
+      "actions": {
+        "cancel": "لغو",
+        "save": "ذخیره"
+      }
+    },
+    "sidebar": {
+      "title": "نمای کلی نمادها",
+      "completionRate": "نرخ تکمیل",
+      "verifiedInfo": "اطلاعات تأیید شده",
+      "lastUpdated": "آخرین بروزرسانی",
+      "progress": "پیشرفت این هفته",
+      "symbolsProfile": "پروفایل نمادها",
+      "profileDescription": "اطلاعات نمادهای بازارگردانی خود را تکمیل کنید تا تمام ویژگی‌ها را باز کنید"
+    }
+  },
+  "managersStaff": {
+    "toolbar": {
+      "description": "مدیریت اطلاعات مدیران و کارکنان",
+      "saveDraft": "ذخیره پیش‌نویس",
+      "submit": "ارسال"
+    },
+    "form": {
+      "title": "اطلاعات مدیران و کارکنان",
+      "sections": {
+        "relatedPersons": "اطلاعات اشخاص مرتبط (مدیران و کارکنان)",
+        "dependents": "اطلاعات افراد تحت تکفل (همسر، فرزندان و سایر اشخاص تحت تکفل)"
+      },
+      "fields": {
+        "personFullName": "نام کامل",
+        "personGender": "جنسیت",
+        "personFatherName": "نام پدر",
+        "personDateOfBirth": "تاریخ تولد",
+        "personNationalId": "کد ملی",
+        "personWorkCity": "محل کار (شهر)",
+        "personWorkUnit": "واحد/بخش کاری",
+        "personPosition": "سمت/عنوان شغلی",
+        "personAge": "سن",
+        "employmentStartDate": "شروع اشتغال (سال/ماه)",
+        "personEducationDegree": "مدرک تحصیلی",
+        "personFieldOfStudy": "رشته تحصیلی",
+        "personProfessionalCertificates": "گواهینامه‌های حرفه‌ای",
+        "personHomeAddress": "آدرس منزل",
+        "personPostalCode": "کد پستی",
+        "personMobile": "تلفن همراه",
+        "personEmail": "ایمیل",
+        "dependentFullName": "نام کامل",
+        "dependentFatherName": "نام پدر",
+        "dependentDateOfBirth": "تاریخ تولد",
+        "dependentNationalId": "کد ملی",
+        "dependentPostalCode": "کد پستی (محل سکونت)",
+        "dependentHomeAddress": "آدرس منزل",
+        "dependentPhone": "تلفن تماس"
+      },
+      "placeholders": {
+        "personFullName": "نام کامل را وارد کنید",
+        "personGender": "جنسیت را انتخاب کنید",
+        "personFatherName": "نام پدر را وارد کنید",
+        "personDateOfBirth": "تاریخ تولد را انتخاب کنید",
+        "personNationalId": "کد ملی را وارد کنید",
+        "personWorkCity": "شهر محل کار را وارد کنید",
+        "personWorkUnit": "واحد/بخش کاری را وارد کنید",
+        "personPosition": "سمت/عنوان شغلی را وارد کنید",
+        "personAge": "سن را وارد کنید",
+        "employmentStartDate": "تاریخ شروع اشتغال را انتخاب کنید",
+        "personEducationDegree": "مدرک تحصیلی را وارد کنید",
+        "personFieldOfStudy": "رشته تحصیلی را وارد کنید",
+        "personProfessionalCertificates": "گواهینامه‌های حرفه‌ای را وارد کنید",
+        "personHomeAddress": "آدرس منزل را وارد کنید",
+        "personPostalCode": "کد پستی را وارد کنید",
+        "personMobile": "شماره تلفن همراه را وارد کنید",
+        "personEmail": "آدرس ایمیل را وارد کنید",
+        "dependentFullName": "نام کامل فرد تحت تکفل را وارد کنید",
+        "dependentFatherName": "نام پدر فرد تحت تکفل را وارد کنید",
+        "dependentDateOfBirth": "تاریخ تولد فرد تحت تکفل را انتخاب کنید",
+        "dependentNationalId": "کد ملی فرد تحت تکفل را وارد کنید",
+        "dependentPostalCode": "کد پستی محل سکونت فرد تحت تکفل را وارد کنید",
+        "dependentHomeAddress": "آدرس منزل فرد تحت تکفل را وارد کنید",
+        "dependentPhone": "شماره تلفن تماس فرد تحت تکفل را وارد کنید"
+      },
+      "options": {
+        "male": "مرد",
+        "female": "زن"
+      },
+      "actions": {
+        "cancel": "لغو",
+        "save": "ذخیره"
+      }
+    },
+    "sidebar": {
+      "title": "نمای کلی کارکنان",
+      "completionRate": "نرخ تکمیل",
+      "verifiedInfo": "اطلاعات تأیید شده",
+      "lastUpdated": "آخرین بروزرسانی",
+      "progress": "پیشرفت این هفته",
+      "staffProfile": "پروفایل کارکنان",
+      "profileDescription": "اطلاعات مدیران و کارکنان خود را تکمیل کنید تا تمام ویژگی‌ها را باز کنید"
+    }
+  },
+  "tradingStations": {
+    "toolbar": {
+      "description": "مدیریت اطلاعات ایستگاه‌های معاملاتی",
+      "saveDraft": "ذخیره پیش‌نویس",
+      "submit": "ارسال"
+    },
+    "form": {
+      "title": "اطلاعات ایستگاه‌های معاملاتی",
+      "sections": {
+        "tradingStations": "ایستگاه‌های معاملاتی"
+      },
+      "fields": {
+        "officeType": "نوع دفتر",
+        "activityType": "نوع فعالیت",
+        "traderName": "نام معامله‌گر",
+        "province": "استان",
+        "city": "شهر",
+        "address": "آدرس",
+        "phone": "تلفن"
+      },
+      "placeholders": {
+        "officeType": "نوع دفتر را انتخاب کنید",
+        "activityType": "نوع فعالیت را انتخاب کنید",
+        "traderName": "نام معامله‌گر را وارد کنید",
+        "province": "استان را انتخاب کنید",
+        "city": "شهر را وارد کنید",
+        "address": "آدرس را وارد کنید",
+        "phone": "شماره تلفن را وارد کنید"
+      },
+      "options": {
+        "headOffice": "دفتر مرکزی",
+        "branch": "شعبه",
+        "representativeOffice": "دفتر نمایندگی",
+        "trading": "معاملاتی",
+        "advisory": "مشاوره‌ای",
+        "both": "معاملاتی و مشاوره‌ای",
+        "tehran": "تهران",
+        "isfahan": "اصفهان",
+        "shiraz": "شیراز",
+        "mashhad": "مشهد",
+        "tabriz": "تبریز",
+        "ahvaz": "اهواز"
+      },
+      "actions": {
+        "cancel": "لغو",
+        "save": "ذخیره"
+      }
+    },
+    "sidebar": {
+      "title": "نمای کلی ایستگاه‌ها",
+      "completionRate": "نرخ تکمیل",
+      "verifiedInfo": "اطلاعات تأیید شده",
+      "lastUpdated": "آخرین بروزرسانی",
+      "progress": "پیشرفت این هفته",
+      "stationsProfile": "پروفایل ایستگاه‌ها",
+      "profileDescription": "اطلاعات ایستگاه‌های معاملاتی خود را تکمیل کنید تا تمام ویژگی‌ها را باز کنید"
+    }
+  }
+}

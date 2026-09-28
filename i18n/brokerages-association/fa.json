@@ -1,0 +1,43 @@
+{
+  "toolbar": {
+    "description": "مدیریت همکاری با کانون کارگزاران",
+    "saveDraft": "ذخیره پیش‌نویس",
+    "submit": "ثبت اطلاعات"
+  },
+  "form": {
+    "personsCount": "نفر",
+    "sections": {
+      "volunteers": "داوطلبان",
+      "workingGroupVolunteers": "داوطلب عضویت در کارگروه‌های کانون کارگزاران",
+      "boardVolunteers": "داوطلب عضویت در هیات مدیره کانون کارگزاران",
+      "representatives": "نمایندگان",
+      "workingGroupRepresentatives": "نماینده در کارگروه‌های کانون کارگزاران",
+      "boardRepresentatives": "نماینده در هیات مدیره کانون کارگزاران"
+    },
+    "fields": {
+      "person": "شخص",
+      "volunteerForm": "فرم داوطلبی"
+    },
+    "placeholders": {
+      "selectPerson": "انتخاب شخص از اشخاص مرتبط"
+    },
+    "actions": {
+      "addVolunteer": "افزودن داوطلب",
+      "addRepresentative": "افزودن نماینده",
+      "cancel": "لغو",
+      "save": "ذخیره"
+    }
+  },
+  "sidebar": {
+    "title": "نمای کلی همکاری با کانون",
+    "totalVolunteers": "مجموع داوطلبان",
+    "totalRepresentatives": "مجموع نمایندگان",
+    "workingGroupVolunteers": "داوطلبان کارگروه",
+    "boardVolunteers": "داوطلبان هیات مدیره",
+    "persons": "نفر",
+    "lastUpdated": "آخرین بروزرسانی",
+    "notYetUpdated": "هنوز بروزرسانی نشده",
+    "profileTitle": "همکاری با کانون کارگزاران",
+    "profileDescription": "اطلاعات همکاری با کانون کارگزاران"
+  }
+}

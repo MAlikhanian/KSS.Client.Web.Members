@@ -1,0 +1,124 @@
+{
+  "title": "Brokerage Financial Information — Guide",
+  "subtitle": "A read-only training walkthrough with sample data and an explanation of every section",
+  "entry": {
+    "button": "Visual guide",
+    "backToPage": "Back to Financial Information"
+  },
+  "demoBanner": "Training mode — all data on this page is sample data shown for demonstration only. Nothing is saved here and every control is read-only.",
+  "labels": {
+    "guide": "Guide",
+    "whatIs": "What is this section?",
+    "howTo": "How do I use it?",
+    "tips": "Tips",
+    "demoData": "Sample data (display only)",
+    "realControlNote": "The real control for this section is shown below, in read-only mode.",
+    "brokerageField": "Brokerage",
+    "editMode": "Edit mode:"
+  },
+  "quickStart": {
+    "title": "What does this page do?",
+    "intro": "The «Brokerage Financial Information» page manages a brokerage's yearly financial data. Because every brokerage is also a «company», the company data here is view-only and only the financial table is editable:",
+    "steps": [
+      "First a brokerage is selected; until then nothing is shown.",
+      "The «Company information» block (name history, registration, emails, phones, addresses and stakeholders) is shown read-only; to edit it go to the «Company Information» page.",
+      "The «Financial information» section is a table per fiscal year: fiscal year, registered capital and number of shares.",
+      "Adding, editing and deleting a row saves immediately; this page has no separate «Update» button."
+    ]
+  },
+  "sections": {
+    "selection": {
+      "title": "Select brokerage",
+      "intro": "The card at the top used to pick the brokerage. Until one is selected, no section is shown.",
+      "steps": [],
+      "tips": [
+        "This is only for selecting a brokerage; the selection itself isn't edited.",
+        "The selection persists between visits."
+      ]
+    },
+    "nameHistory": {
+      "title": "Name history",
+      "intro": "The company/brokerage names over time. This comes from the company data and is read-only here.",
+      "steps": [],
+      "tips": [
+        "To edit names, go to the «Company Information» page; it can't be changed here."
+      ]
+    },
+    "registrationLegal": {
+      "title": "Registration & legal",
+      "intro": "Company registration data: dates and number, place of registration, national ID and economic code. View-only on this page.",
+      "steps": [],
+      "tips": [
+        "These fields are part of the company data and are only editable on the «Company Information» page."
+      ]
+    },
+    "emails": {
+      "title": "Emails",
+      "intro": "The company's emails with label, address and «primary»/«verified» flags — view only.",
+      "steps": [],
+      "tips": [
+        "«Primary» shows a yellow star and «verified» a green check."
+      ]
+    },
+    "phones": {
+      "title": "Phones",
+      "intro": "The company's phone numbers with label, number (E.164) and «primary»/«verified» flags — view only.",
+      "steps": [],
+      "tips": [
+        "Numbers are shown in international format (+ and country code)."
+      ]
+    },
+    "addresses": {
+      "title": "Addresses",
+      "intro": "The company's addresses with label, location, street, postal code and «primary» flag — view only.",
+      "steps": [],
+      "tips": [
+        "A 10-digit postal code is shown as 5-5."
+      ]
+    },
+    "stakeholders": {
+      "title": "Stakeholders",
+      "intro": "People/companies with an ownership relationship, with stakeholder type, ownership % and share count — view only.",
+      "steps": [],
+      "tips": [
+        "In this training sample the related-party name shows as «unknown» because it is not connected to real data."
+      ]
+    },
+    "financial": {
+      "title": "Financial information",
+      "intro": "The only editable section on this page: a table of financial data per fiscal year. For each year, «fiscal year», «registered capital» and «number of shares» are recorded.",
+      "steps": [
+        "To add a fiscal year, click «Add» above the table to open the dialog.",
+        "Enter the «fiscal year» (e.g. 1403), the «registered capital» (in Rial) and the «number of shares».",
+        "Click «Save»; the row is added to the table.",
+        "Use the pencil/trash icons on each row to edit or delete it."
+      ],
+      "tips": [
+        "Amounts are shown in Rial with thousand separators.",
+        "Typically one row is recorded per fiscal year.",
+        "Add/edit/delete saves immediately; there is no separate «Update» button."
+      ]
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Why can't I edit the company info (name, address, …) here?",
+        "a": "Because every brokerage is a company, and the general company data is managed on the «Company Information» page. This page only shows it and edits the financial table."
+      },
+      {
+        "q": "What does the «Financial information» table store?",
+        "a": "One row per fiscal year with the registered capital and number of shares. The data is kept per year."
+      },
+      {
+        "q": "Why is there no global «Update»/«Save» button?",
+        "a": "Each add, edit or delete saves immediately via its dialog; there's no need for a separate save button at the bottom of the page."
+      },
+      {
+        "q": "Why can't I see any section?",
+        "a": "Because you haven't selected a brokerage yet. Select one from the card at the top first."
+      }
+    ]
+  }
+}

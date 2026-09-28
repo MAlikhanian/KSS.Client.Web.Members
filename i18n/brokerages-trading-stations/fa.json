@@ -1,0 +1,75 @@
+{
+  "toolbar": {
+    "description": "مدیریت ایستگاه‌های معاملاتی",
+    "saveDraft": "ذخیره پیش‌نویس",
+    "submit": "ارسال"
+  },
+  "form": {
+    "sections": {
+      "tradingStations": "ایستگاه‌های معاملاتی"
+    },
+    "fields": {
+      "stationCode": "کد ایستگاه",
+      "officeType": "نوع دفتر",
+      "activityType": "نوع فعالیت",
+      "traderName": "نام معامله‌گر",
+      "activityProvince": "استان فعالیت",
+      "activityCity": "شهر فعالیت",
+      "tradingOffice": "دفتر معاملاتی",
+      "stationType": "نوع دفتر",
+      "trader": "معامله‌گر",
+      "selectedTrader": "معامله‌گر انتخاب‌شده",
+      "isActive": "فعال"
+    },
+    "placeholders": {
+      "officeType": "نوع دفتر را انتخاب کنید",
+      "activityType": "نوع فعالیت را انتخاب کنید",
+      "traderName": "نام معامله‌گر را وارد کنید",
+      "activityProvince": "استان فعالیت را وارد کنید",
+      "activityCity": "شهر فعالیت را وارد کنید",
+      "tradingOffice": "دفتر معاملاتی را انتخاب کنید",
+      "stationType": "نوع دفتر را انتخاب کنید"
+    },
+    "options": {
+      "mainStation": "ایستگاه اصلی",
+      "branchStation": "ایستگاه شعبه",
+      "tradingFloor": "سالن معاملات",
+      "remoteStation": "ایستگاه راه‌دور",
+      "equityTrading": "معاملات سهام",
+      "derivativesTrading": "معاملات مشتقه",
+      "commodityTrading": "معاملات کالا",
+      "currencyTrading": "معاملات ارز",
+      "bondTrading": "معاملات اوراق قرضه"
+    },
+    "actions": {
+      "addStation": "افزودن ایستگاه",
+      "cancel": "لغو",
+      "save": "ذخیره ایستگاه",
+      "update": "بروزرسانی"
+    },
+    "noStations": "هنوز هیچ ایستگاه معاملاتی اضافه نشده",
+    "clickAddToStart": "برای شروع روی 'افزودن ایستگاه' کلیک کنید",
+    "stationNumber": "ایستگاه {{number}}",
+    "unsaved": "ذخیره‌نشده",
+    "messages": {
+      "created": "با موفقیت ایجاد شد",
+      "updated": "با موفقیت بروزرسانی شد",
+      "deleted": "با موفقیت حذف شد",
+      "saveError": "ذخیره ناموفق بود",
+      "deleteError": "حذف ناموفق بود",
+      "officeRequired": "لطفاً یک دفتر معاملاتی را انتخاب کنید",
+      "activityTypeRequired": "لطفاً نوع فعالیت را انتخاب کنید",
+      "traderRequired": "لطفاً معامله‌گر را انتخاب کنید"
+    }
+  },
+  "sidebar": {
+    "title": "نمای کلی ایستگاه‌ها",
+    "totalStations": "کل ایستگاه‌ها",
+    "totalTraders": "کل معامله‌گران",
+    "cities": "شهرها",
+    "activityTypes": "انواع فعالیت",
+    "lastUpdated": "آخرین بروزرسانی",
+    "stationsProfile": "پروفایل ایستگاه‌ها",
+    "profileDescription": "اطلاعات ایستگاه‌های معاملاتی خود را تکمیل کنید تا تمام ویژگی‌ها را باز کنید"
+  }
+}

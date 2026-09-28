@@ -1,0 +1,82 @@
+{
+  "toolbar": {
+    "description": "General Company Information Management",
+    "saveDraft": "Save Draft",
+    "submit": "Submit"
+  },
+  "form": {
+    "title": "General Information",
+    "messages": {
+      "brokerageUpdated": "Brokerage updated successfully"
+    },
+    "sections": {
+      "companyInfo": "Company Information",
+      "registrationInfo": "Registration Information",
+      "legalInfo": "Legal Information",
+      "contactInfo": "Contact Information",
+      "addressInfo": "Address Information",
+      "operations": "Operations",
+      "brokerageDomain": "Brokerage Specialized Information"
+    },
+    "fields": {
+      "companyPersianName": "Company Name (Persian)",
+      "companyLatinName": "Company Name (Latin)",
+      "formerNames": "Former Names",
+      "registrationDate": "Registration Date",
+      "registrationNumber": "Registration Number",
+      "registrationPlace": "Place of Registration",
+      "seoRegistrationDate": "SEO Registration Date",
+      "seoRegistrationNumber": "SEO Registration Number",
+      "employeeCount": "Number of Employees",
+      "nationalId": "National ID",
+      "economicCode": "Economic Code",
+      "phoneNumber": "Phone Number",
+      "faxNumber": "Fax Number",
+      "headOfficeAddress": "Head Office Address",
+      "postalCode": "Postal Code",
+      "poBox": "P.O. Box",
+      "website": "Website",
+      "email": "Email",
+      "registrationCountry": "Registration Country",
+      "registrationRegion": "Registration Province",
+      "registrationCity": "Registration City"
+    },
+    "placeholders": {
+      "companyPersianName": "Enter company name in Persian",
+      "companyLatinName": "Enter company name in Latin",
+      "formerNames": "Enter former company names (one per line)",
+      "registrationNumber": "Enter registration number",
+      "registrationPlace": "Enter place of registration",
+      "seoRegistrationNumber": "Enter SEO registration number",
+      "employeeCount": "Enter number of employees",
+      "nationalId": "Enter national ID",
+      "economicCode": "Enter economic code",
+      "phoneNumber": "Enter phone number",
+      "faxNumber": "Enter fax number",
+      "headOfficeAddress": "Enter head office address",
+      "postalCode": "Enter postal code",
+      "poBox": "Enter P.O. Box number",
+      "website": "Enter website URL",
+      "email": "Enter email address",
+      "registrationCountry": "Select registration country",
+      "registrationRegion": "Select registration province",
+      "registrationCity": "Select registration city",
+      "seoRegistrationDate": "Select SEO registration date"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "save": "Save",
+      "processing": "Processing...",
+      "update": "Update"
+    }
+  },
+  "sidebar": {
+    "title": "Profile Overview",
+    "completionRate": "Completion Rate",
+    "verifiedInfo": "Verified Information",
+    "lastUpdated": "Last Updated",
+    "progress": "Progress This Week",
+    "companyProfile": "Company Profile",
+    "profileDescription": "Complete your company information to unlock all features"
+  }
+}

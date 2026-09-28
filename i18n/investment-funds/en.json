@@ -1,0 +1,507 @@
+{
+  "common": {
+    "sections": {
+      "fundSelection": "Fund Selection"
+    },
+    "fields": {
+      "selectedFund": "Select Fund"
+    },
+    "placeholders": {
+      "selectedFund": "Choose a fund to submit information for"
+    },
+    "search": {
+      "placeholder": "Search funds...",
+      "noResults": "No funds found."
+    },
+    "loading": "Loading funds...",
+    "error": "Failed to load funds",
+    "selectFund": {
+      "title": "Select Investment Fund",
+      "description": "Choose an existing fund to edit, or leave the field empty to register a new one.",
+      "placeholder": "Select a fund to edit...",
+      "label": "Investment Fund",
+      "newFund": "New Fund",
+      "editMode": "Edit mode:"
+    }
+  },
+  "generalInformation": {
+    "toolbar": {
+      "description": "General Fund Information Management",
+      "saveDraft": "Save Draft",
+      "submit": "Submit"
+    },
+    "form": {
+      "title": "General Information",
+      "sections": {
+        "generalInfo": "General Information",
+        "investmentUnits": "Investment Units",
+        "registrationLegal": "Registration & Legal Information",
+        "companyRegistration": "Company Registration",
+        "fundSeoRegistration": "Fund SEO Registration",
+        "contactAddress": "Contact & Address Information",
+        "fundOrgans": "Fund Organs (Key Roles)",
+        "associationContact": "Fund Contact with Association",
+        "financialInfo": "Financial Information",
+        "manager": "Manager",
+        "trustee": "Trustee",
+        "auditor": "Auditor"
+      },
+      "groups": {
+        "companyInfo": "Company Information (read-only)",
+        "fundInfo": "Fund Information"
+      },
+      "fields": {
+        "persianName": "Persian Name",
+        "latinName": "Latin Name",
+        "preferredUnitsCount": "Preferred Units Count",
+        "ordinaryUnitsInvestors": "Ordinary Units (Investors)",
+        "ordinaryUnitsSeo": "Ordinary Units (Licensed by SEO)",
+        "establishmentDate": "Establishment Date",
+        "endOfActivityPeriodSeo": "End of Activity Period (per SEO license)",
+        "registrationDateCompanies": "Registration Date (Companies Registry)",
+        "registrationNumberCompanies": "Registration Number (Companies Registry)",
+        "registrationPlaceCompanies": "Registration Place (Companies Registry)",
+        "registrationDateSeo": "Registration Date (SEO)",
+        "registrationNumberSeo": "Registration Number (SEO)",
+        "nationalId": "National ID",
+        "economicCode": "Economic Code",
+        "headOfficeAddress": "Head Office Address",
+        "headOfficePostalCode": "Head Office Postal Code",
+        "poBox": "P.O. Box",
+        "website": "Website",
+        "email": "Email",
+        "managerName": "Manager Name",
+        "managerRepresentativeName": "Manager Representative Name",
+        "managerRepresentativeMobile": "Manager Representative Mobile",
+        "trusteeName": "Trustee Name",
+        "trusteeRepresentativeName": "Trustee Representative Name",
+        "trusteeRepresentativeMobile": "Trustee Representative Mobile",
+        "auditorName": "Auditor Name",
+        "auditorRepresentativeName": "Auditor Representative Name",
+        "associationLiaisonName": "Association Liaison Name",
+        "associationLiaisonMobile": "Association Liaison Mobile",
+        "fiscalYear": "Fiscal Year",
+        "organMobile": "Mobile"
+      },
+      "messages": {
+        "saveFundFirst": "Save the fund first to assign organ roles.",
+        "fundUpdated": "Fund updated successfully"
+      },
+      "alerts": {
+        "companyFieldsReadOnly": {
+          "title": "Company fields are read-only on this page",
+          "description": "To edit company information (name, registration, contacts, addresses) go to ",
+          "link": "Company → Information",
+          "suffix": "."
+        }
+      },
+      "errors": {
+        "organAssignFailed": "Organ assignment failed",
+        "organRemoveFailed": "Organ removal failed"
+      },
+      "placeholders": {
+        "persianName": "Enter fund name in Persian",
+        "latinName": "Enter fund name in Latin",
+        "preferredUnitsCount": "Enter preferred units count",
+        "ordinaryUnitsInvestors": "Enter ordinary units for investors",
+        "ordinaryUnitsSeo": "Enter ordinary units licensed by SEO",
+        "establishmentDate": "Select establishment date",
+        "endOfActivityPeriodSeo": "Select end of activity period",
+        "registrationDateCompanies": "Select registration date (Companies)",
+        "registrationDateSeo": "Select registration date (SEO)",
+        "registrationNumberCompanies": "Enter registration number",
+        "registrationPlaceCompanies": "Enter place of registration",
+        "registrationNumberSeo": "Enter SEO registration number",
+        "nationalId": "Enter national ID",
+        "economicCode": "Enter economic code",
+        "headOfficeAddress": "Enter head office address",
+        "headOfficePostalCode": "Enter postal code",
+        "poBox": "Enter P.O. Box number",
+        "website": "Enter website URL",
+        "email": "Enter email address",
+        "managerName": "Enter manager name",
+        "managerRepresentativeName": "Enter manager representative name",
+        "managerRepresentativeMobile": "Enter manager representative mobile",
+        "trusteeName": "Enter trustee name",
+        "trusteeRepresentativeName": "Enter trustee representative name",
+        "trusteeRepresentativeMobile": "Enter trustee representative mobile",
+        "auditorName": "Enter auditor name",
+        "auditorRepresentativeName": "Enter auditor representative name",
+        "associationLiaisonName": "Enter association liaison name",
+        "associationLiaisonMobile": "Enter association liaison mobile",
+        "fiscalYear": "Enter fiscal year",
+        "selectOrganPerson": "Select person",
+        "organMobileFromPerson": "Read from person's profile"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "save": "Save"
+      }
+    },
+    "sidebar": {
+      "title": "Fund Overview",
+      "completionRate": "Completion Rate",
+      "verifiedInfo": "Verified Information",
+      "lastUpdated": "Last Updated",
+      "progress": "Progress This Week",
+      "fundProfile": "Fund Profile",
+      "profileDescription": "Complete your fund information to unlock all features"
+    }
+  },
+  "fundManager": {
+    "toolbar": {
+      "description": "Fund Manager Information Management",
+      "saveDraft": "Save Draft",
+      "submit": "Submit"
+    },
+    "form": {
+      "title": "Fund Manager Information",
+      "sections": {
+        "personalInfo": "Personal Information",
+        "professionalInfo": "Professional Information",
+        "contactInfo": "Contact Information",
+        "educationCertificates": "Education & Certificates"
+      },
+      "fields": {
+        "fundManagerName": "Name",
+        "fundManagerGender": "Gender",
+        "fundManagerPosition": "Position / Title",
+        "fundManagerWorkExperience": "Work Experience",
+        "fundManagerEducationDegree": "Education Degree",
+        "fundManagerFieldOfStudy": "Field of Study",
+        "fundManagerYearOfBirth": "Year of Birth",
+        "fundManagerNationalId": "National ID",
+        "fundManagerMobile": "Mobile Phone",
+        "fundManagerEmail": "Email",
+        "fundManagerProfessionalCertificates": "Professional Certificates"
+      },
+      "placeholders": {
+        "fundManagerName": "Enter fund manager name",
+        "fundManagerGender": "Select gender",
+        "fundManagerPosition": "Enter position or title",
+        "fundManagerWorkExperience": "Enter work experience",
+        "fundManagerEducationDegree": "Enter education degree",
+        "fundManagerFieldOfStudy": "Enter field of study",
+        "fundManagerYearOfBirth": "Enter year of birth",
+        "fundManagerNationalId": "Enter national ID",
+        "fundManagerMobile": "Enter mobile phone number",
+        "fundManagerEmail": "Enter email address",
+        "fundManagerProfessionalCertificates": "Enter professional certificates"
+      },
+      "options": {
+        "male": "Male",
+        "female": "Female"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "save": "Save"
+      }
+    },
+    "sidebar": {
+      "title": "Manager Overview",
+      "completionRate": "Completion Rate",
+      "verifiedInfo": "Verified Information",
+      "lastUpdated": "Last Updated",
+      "progress": "Progress This Week",
+      "managerProfile": "Manager Profile",
+      "profileDescription": "Complete your fund manager information to unlock all features"
+    }
+  },
+  "trustee": {
+    "toolbar": {
+      "description": "Trustee Information Management",
+      "saveDraft": "Save Draft",
+      "submit": "Submit"
+    },
+    "form": {
+      "title": "Trustee Information",
+      "sections": {
+        "personalInfo": "Personal Information",
+        "professionalInfo": "Professional Information",
+        "contactInfo": "Contact Information",
+        "educationCertificates": "Education & Certificates"
+      },
+      "fields": {
+        "trusteeName": "Name",
+        "trusteeGender": "Gender",
+        "trusteePosition": "Position / Title",
+        "trusteeWorkExperience": "Work Experience",
+        "trusteeEducationDegree": "Education Degree",
+        "trusteeFieldOfStudy": "Field of Study",
+        "trusteeYearOfBirth": "Year of Birth",
+        "trusteeNationalId": "National ID",
+        "trusteeMobile": "Mobile Phone",
+        "trusteeEmail": "Email",
+        "trusteeProfessionalCertificates": "Professional Certificates"
+      },
+      "placeholders": {
+        "trusteeName": "Enter trustee name",
+        "trusteeGender": "Select gender",
+        "trusteePosition": "Enter position or title",
+        "trusteeWorkExperience": "Enter work experience",
+        "trusteeEducationDegree": "Enter education degree",
+        "trusteeFieldOfStudy": "Enter field of study",
+        "trusteeYearOfBirth": "Enter year of birth",
+        "trusteeNationalId": "Enter national ID",
+        "trusteeMobile": "Enter mobile phone number",
+        "trusteeEmail": "Enter email address",
+        "trusteeProfessionalCertificates": "Enter professional certificates"
+      },
+      "options": {
+        "male": "Male",
+        "female": "Female"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "save": "Save"
+      }
+    },
+    "sidebar": {
+      "title": "Trustee Overview",
+      "completionRate": "Completion Rate",
+      "verifiedInfo": "Verified Information",
+      "lastUpdated": "Last Updated",
+      "progress": "Progress This Week",
+      "trusteeProfile": "Trustee Profile",
+      "profileDescription": "Complete your trustee information to unlock all features"
+    }
+  },
+  "preferredShareholders": {
+    "toolbar": {
+      "description": "Preferred Shareholders Information Management",
+      "saveDraft": "Save Draft",
+      "submit": "Submit"
+    },
+    "form": {
+      "title": "Preferred Shareholders Information",
+      "sections": {
+        "preferredShareholders": "Preferred Shareholders"
+      },
+      "fields": {
+        "preferredUnitHolderName": "Preferred Unit Holder Name",
+        "preferredUnitHolderType": "Holder Type",
+        "preferredUnitOwnershipPercent": "Ownership Percentage of Total Preferred Units",
+        "preferredUnitsCount": "Preferred Units Count"
+      },
+      "placeholders": {
+        "preferredUnitHolderName": "Enter preferred unit holder name",
+        "preferredUnitHolderType": "Select holder type",
+        "preferredUnitOwnershipPercent": "Enter ownership percentage",
+        "preferredUnitsCount": "Enter preferred units count"
+      },
+      "options": {
+        "individual": "Individual",
+        "legalEntity": "Legal Entity"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "save": "Save"
+      }
+    },
+    "sidebar": {
+      "title": "Shareholders Overview",
+      "completionRate": "Completion Rate",
+      "verifiedInfo": "Verified Information",
+      "lastUpdated": "Last Updated",
+      "progress": "Progress This Week",
+      "shareholdersProfile": "Shareholders Profile",
+      "profileDescription": "Complete your preferred shareholders information to unlock all features"
+    }
+  },
+  "marketMakingSymbols": {
+    "toolbar": {
+      "description": "Market-Making Symbols Information Management",
+      "saveDraft": "Save Draft",
+      "submit": "Submit"
+    },
+    "form": {
+      "title": "Market-Making Symbols Information",
+      "sections": {
+        "marketMakingSymbols": "Market-Making Symbols"
+      },
+      "fields": {
+        "marketMakingCompanyName": "Company Name",
+        "marketMakingCompanySymbol": "Company Symbol",
+        "market": "Market",
+        "tradingBoard": "Trading Board",
+        "symbolLicenseDate": "License Date for Symbol Addition",
+        "minAccumulatedOrder": "Minimum Accumulated Order",
+        "quoteRange": "Quote Range",
+        "minDailyTradingVolume": "Minimum Daily Trading Volume",
+        "avgNavLastEsfand": "Average NAV (Esfand of Previous Year)"
+      },
+      "placeholders": {
+        "marketMakingCompanyName": "Enter company name",
+        "marketMakingCompanySymbol": "Enter company symbol",
+        "market": "Select market",
+        "tradingBoard": "Select trading board",
+        "symbolLicenseDate": "Select license date",
+        "minAccumulatedOrder": "Enter minimum accumulated order",
+        "quoteRange": "Enter quote range",
+        "minDailyTradingVolume": "Enter minimum daily trading volume",
+        "avgNavLastEsfand": "Enter average NAV"
+      },
+      "options": {
+        "tehran": "Tehran Stock Exchange",
+        "otc": "OTC Market",
+        "commodity": "Commodity Exchange",
+        "main": "Main Board",
+        "secondary": "Secondary Board"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "save": "Save"
+      }
+    },
+    "sidebar": {
+      "title": "Symbols Overview",
+      "completionRate": "Completion Rate",
+      "verifiedInfo": "Verified Information",
+      "lastUpdated": "Last Updated",
+      "progress": "Progress This Week",
+      "symbolsProfile": "Symbols Profile",
+      "profileDescription": "Complete your market-making symbols information to unlock all features"
+    }
+  },
+  "managersStaff": {
+    "toolbar": {
+      "description": "Managers & Staff Information Management",
+      "saveDraft": "Save Draft",
+      "submit": "Submit"
+    },
+    "form": {
+      "title": "Managers & Staff Information",
+      "sections": {
+        "relatedPersons": "Related Persons Information (Managers & Staff)",
+        "dependents": "Dependents Information (Spouse, Children & Other Dependents)"
+      },
+      "fields": {
+        "personFullName": "Full Name",
+        "personGender": "Gender",
+        "personFatherName": "Father's Name",
+        "personDateOfBirth": "Date of Birth",
+        "personNationalId": "National ID",
+        "personWorkCity": "Work Location (City)",
+        "personWorkUnit": "Work Unit / Department",
+        "personPosition": "Position / Title",
+        "personAge": "Age",
+        "employmentStartDate": "Start of Employment (Year/Month)",
+        "personEducationDegree": "Education Degree",
+        "personFieldOfStudy": "Field of Study",
+        "personProfessionalCertificates": "Professional Certificates",
+        "personHomeAddress": "Home Address",
+        "personPostalCode": "Postal Code",
+        "personMobile": "Mobile Phone",
+        "personEmail": "Email",
+        "dependentFullName": "Full Name",
+        "dependentFatherName": "Father's Name",
+        "dependentDateOfBirth": "Date of Birth",
+        "dependentNationalId": "National ID",
+        "dependentPostalCode": "Postal Code (Residence)",
+        "dependentHomeAddress": "Home Address",
+        "dependentPhone": "Contact Phone"
+      },
+      "placeholders": {
+        "personFullName": "Enter full name",
+        "personGender": "Select gender",
+        "personFatherName": "Enter father's name",
+        "personDateOfBirth": "Select date of birth",
+        "personNationalId": "Enter national ID",
+        "personWorkCity": "Enter work city",
+        "personWorkUnit": "Enter work unit/department",
+        "personPosition": "Enter position/title",
+        "personAge": "Enter age",
+        "employmentStartDate": "Select employment start date",
+        "personEducationDegree": "Enter education degree",
+        "personFieldOfStudy": "Enter field of study",
+        "personProfessionalCertificates": "Enter professional certificates",
+        "personHomeAddress": "Enter home address",
+        "personPostalCode": "Enter postal code",
+        "personMobile": "Enter mobile phone",
+        "personEmail": "Enter email address",
+        "dependentFullName": "Enter dependent's full name",
+        "dependentFatherName": "Enter dependent's father's name",
+        "dependentDateOfBirth": "Select dependent's date of birth",
+        "dependentNationalId": "Enter dependent's national ID",
+        "dependentPostalCode": "Enter dependent's postal code",
+        "dependentHomeAddress": "Enter dependent's home address",
+        "dependentPhone": "Enter dependent's contact phone"
+      },
+      "options": {
+        "male": "Male",
+        "female": "Female"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "save": "Save"
+      }
+    },
+    "sidebar": {
+      "title": "Staff Overview",
+      "completionRate": "Completion Rate",
+      "verifiedInfo": "Verified Information",
+      "lastUpdated": "Last Updated",
+      "progress": "Progress This Week",
+      "staffProfile": "Staff Profile",
+      "profileDescription": "Complete your managers & staff information to unlock all features"
+    }
+  },
+  "tradingStations": {
+    "toolbar": {
+      "description": "Trading Stations Information Management",
+      "saveDraft": "Save Draft",
+      "submit": "Submit"
+    },
+    "form": {
+      "title": "Trading Stations Information",
+      "sections": {
+        "tradingStations": "Trading Stations"
+      },
+      "fields": {
+        "officeType": "Office Type",
+        "activityType": "Activity Type",
+        "traderName": "Trader Name",
+        "province": "Province",
+        "city": "City",
+        "address": "Address",
+        "phone": "Phone"
+      },
+      "placeholders": {
+        "officeType": "Select office type",
+        "activityType": "Select activity type",
+        "traderName": "Enter trader name",
+        "province": "Select province",
+        "city": "Enter city",
+        "address": "Enter address",
+        "phone": "Enter phone number"
+      },
+      "options": {
+        "headOffice": "Head Office",
+        "branch": "Branch",
+        "representativeOffice": "Representative Office",
+        "trading": "Trading",
+        "advisory": "Advisory",
+        "both": "Both Trading & Advisory",
+        "tehran": "Tehran",
+        "isfahan": "Isfahan",
+        "shiraz": "Shiraz",
+        "mashhad": "Mashhad",
+        "tabriz": "Tabriz",
+        "ahvaz": "Ahvaz"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "save": "Save"
+      }
+    },
+    "sidebar": {
+      "title": "Stations Overview",
+      "completionRate": "Completion Rate",
+      "verifiedInfo": "Verified Information",
+      "lastUpdated": "Last Updated",
+      "progress": "Progress This Week",
+      "stationsProfile": "Stations Profile",
+      "profileDescription": "Complete your trading stations information to unlock all features"
+    }
+  }
+}

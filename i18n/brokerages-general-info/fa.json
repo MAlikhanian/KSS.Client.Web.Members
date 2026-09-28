@@ -1,0 +1,83 @@
+{
+  "toolbar": {
+    "description": "مدیریت اطلاعات عمومی شرکت",
+    "saveDraft": "ذخیره پیش‌نویس",
+    "submit": "ارسال"
+  },
+  "form": {
+    "title": "اطلاعات عمومی",
+    "messages": {
+      "brokerageUpdated": "کارگزاری با موفقیت به‌روزرسانی شد"
+    },
+    "sections": {
+      "companyInfo": "اطلاعات شرکت",
+      "registrationInfo": "اطلاعات ثبت",
+      "legalInfo": "اطلاعات حقوقی",
+      "registrationLegal": "اطلاعات ثبتی و حقوقی",
+      "contactInfo": "اطلاعات تماس",
+      "addressInfo": "اطلاعات آدرس",
+      "operations": "عملیات",
+      "brokerageDomain": "اطلاعات تخصصی کارگزاری"
+    },
+    "fields": {
+      "companyPersianName": "نام شرکت (فارسی)",
+      "companyLatinName": "نام شرکت (لاتین)",
+      "formerNames": "نام‌های قبلی",
+      "registrationDate": "تاریخ ثبت",
+      "registrationNumber": "شماره ثبت",
+      "registrationPlace": "محل ثبت",
+      "seoRegistrationDate": "تاریخ ثبت در سازمان",
+      "seoRegistrationNumber": "شماره ثبت در سازمان",
+      "employeeCount": "تعداد کارکنان",
+      "nationalId": "شناسه ملی",
+      "economicCode": "کد اقتصادی",
+      "phoneNumber": "شماره تلفن",
+      "faxNumber": "شماره فکس",
+      "headOfficeAddress": "آدرس دفتر مرکزی",
+      "postalCode": "کد پستی",
+      "poBox": "صندوق پستی",
+      "website": "وب‌سایت",
+      "email": "ایمیل",
+      "registrationCountry": "کشور ثبت",
+      "registrationRegion": "استان ثبت",
+      "registrationCity": "شهر ثبت"
+    },
+    "placeholders": {
+      "companyPersianName": "نام شرکت را به فارسی وارد کنید",
+      "companyLatinName": "نام شرکت را به لاتین وارد کنید",
+      "formerNames": "نام‌های قبلی شرکت را وارد کنید (هر نام در یک خط)",
+      "registrationNumber": "شماره ثبت را وارد کنید",
+      "registrationPlace": "محل ثبت را وارد کنید",
+      "seoRegistrationNumber": "شماره ثبت در سازمان را وارد کنید",
+      "employeeCount": "تعداد کارکنان را وارد کنید",
+      "nationalId": "شناسه ملی را وارد کنید",
+      "economicCode": "کد اقتصادی را وارد کنید",
+      "phoneNumber": "شماره تلفن را وارد کنید",
+      "faxNumber": "شماره فکس را وارد کنید",
+      "headOfficeAddress": "آدرس دفتر مرکزی را وارد کنید",
+      "postalCode": "کد پستی را وارد کنید",
+      "poBox": "شماره صندوق پستی را وارد کنید",
+      "website": "آدرس وب‌سایت را وارد کنید",
+      "email": "آدرس ایمیل را وارد کنید",
+      "registrationCountry": "کشور ثبت را انتخاب کنید",
+      "registrationRegion": "استان ثبت را انتخاب کنید",
+      "registrationCity": "شهر ثبت را انتخاب کنید",
+      "seoRegistrationDate": "تاریخ ثبت در سازمان را انتخاب کنید"
+    },
+    "actions": {
+      "cancel": "لغو",
+      "save": "ذخیره",
+      "processing": "در حال پردازش...",
+      "update": "به‌روزرسانی"
+    }
+  },
+  "sidebar": {
+    "title": "نمای کلی پروفایل",
+    "completionRate": "نرخ تکمیل",
+    "verifiedInfo": "اطلاعات تأیید شده",
+    "lastUpdated": "آخرین به‌روزرسانی",
+    "progress": "پیشرفت این هفته",
+    "companyProfile": "پروفایل شرکت",
+    "profileDescription": "اطلاعات شرکت خود را تکمیل کنید تا تمام ویژگی‌ها را باز کنید"
+  }
+}

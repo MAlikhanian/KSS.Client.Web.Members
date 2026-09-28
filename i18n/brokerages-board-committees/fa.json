@@ -1,0 +1,43 @@
+{
+  "toolbar": {
+    "description": "مدیریت کمیته‌های ذیل هیات مدیره",
+    "saveDraft": "ذخیره پیش‌نویس",
+    "submit": "ثبت اطلاعات"
+  },
+  "form": {
+    "activeCommittees": "کمیته فعال",
+    "sections": {
+      "committees": "کمیته‌های هیات مدیره"
+    },
+    "committees": {
+      "audit": "کمیته حسابرسی",
+      "credit": "کمیته اعتبارات",
+      "risk": "کمیته ریسک",
+      "hr": "کمیته منابع انسانی"
+    },
+    "fields": {
+      "committeeName": "نام کمیته",
+      "meetingMinutes": "آخرین صورت‌جلسه"
+    },
+    "placeholders": {
+      "committeeName": "نام کمیته را وارد کنید"
+    },
+    "actions": {
+      "addOtherCommittee": "افزودن سایر کمیته‌ها",
+      "cancel": "لغو",
+      "save": "ذخیره"
+    }
+  },
+  "sidebar": {
+    "title": "نمای کلی کمیته‌ها",
+    "totalCommittees": "مجموع کمیته‌ها",
+    "activeCommittees": "کمیته‌های فعال",
+    "totalDocuments": "مجموع صورت‌جلسات",
+    "committees": "کمیته",
+    "documents": "سند",
+    "lastUpdated": "آخرین بروزرسانی",
+    "notYetUpdated": "هنوز بروزرسانی نشده",
+    "profileTitle": "کمیته‌های هیات مدیره",
+    "profileDescription": "اطلاعات کمیته‌های ذیل هیات مدیره"
+  }
+}

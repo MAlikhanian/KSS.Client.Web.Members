@@ -1,0 +1,125 @@
+{
+  "title": "Brokerage Trading Stations — Guide",
+  "subtitle": "A read-only training walkthrough with sample data and an explanation of every section",
+  "entry": {
+    "button": "Visual guide",
+    "backToPage": "Back to Trading Stations"
+  },
+  "demoBanner": "Training mode — all data on this page is sample data shown for demonstration only. Nothing is saved here and every control is read-only.",
+  "labels": {
+    "guide": "Guide",
+    "whatIs": "What is this section?",
+    "howTo": "How do I use it?",
+    "tips": "Tips",
+    "demoData": "Sample data (display only)",
+    "realControlNote": "The real control for this section is shown below, in read-only mode.",
+    "brokerageField": "Brokerage",
+    "editMode": "Edit mode:"
+  },
+  "quickStart": {
+    "title": "What does this page do?",
+    "intro": "The «Trading Stations» page manages a brokerage's trading stations. Because every brokerage is also a «company», the company data is view-only and only the stations list is editable:",
+    "steps": [
+      "First a brokerage is selected; until then nothing is shown.",
+      "The «Company information» block (name history, registration, emails, phones, addresses and stakeholders) is read-only; to edit it go to the «Company Information» page.",
+      "In «Trading Stations» you can add, edit and delete stations. Each station has a station type, activity type and trader, and then its own addresses and phones.",
+      "Each station saves independently; this page has no global save button."
+    ]
+  },
+  "sections": {
+    "selection": {
+      "title": "Select brokerage",
+      "intro": "The card at the top used to pick the brokerage. Until one is selected, no section is shown.",
+      "steps": [],
+      "tips": [
+        "This is only for selecting a brokerage; the selection itself isn't edited.",
+        "The selection persists between visits."
+      ]
+    },
+    "nameHistory": {
+      "title": "Name history",
+      "intro": "The company/brokerage names over time. This comes from the company data and is read-only here.",
+      "steps": [],
+      "tips": [
+        "To edit names, go to the «Company Information» page; it can't be changed here."
+      ]
+    },
+    "registrationLegal": {
+      "title": "Registration & legal",
+      "intro": "Company registration data: dates and number, place of registration, national ID and economic code. View-only on this page.",
+      "steps": [],
+      "tips": [
+        "These fields are part of the company data and are only editable on the «Company Information» page."
+      ]
+    },
+    "emails": {
+      "title": "Emails",
+      "intro": "The company's emails with label, address and «primary»/«verified» flags — view only.",
+      "steps": [],
+      "tips": [
+        "«Primary» shows a yellow star and «verified» a green check."
+      ]
+    },
+    "phones": {
+      "title": "Phones",
+      "intro": "The company's phone numbers with label, number (E.164) and «primary»/«verified» flags — view only.",
+      "steps": [],
+      "tips": [
+        "Numbers are shown in international format (+ and country code)."
+      ]
+    },
+    "addresses": {
+      "title": "Addresses",
+      "intro": "The company's addresses with label, location, street, postal code and «primary» flag — view only.",
+      "steps": [],
+      "tips": [
+        "A 10-digit postal code is shown as 5-5."
+      ]
+    },
+    "stakeholders": {
+      "title": "Stakeholders",
+      "intro": "People/companies with an ownership relationship, with stakeholder type, ownership % and share count — view only.",
+      "steps": [],
+      "tips": [
+        "In this training sample the related-party name shows as «unknown» because it is not connected to real data."
+      ]
+    },
+    "tradingStations": {
+      "title": "Trading stations",
+      "intro": "The only editable section on this page: the list of the brokerage's trading stations. Each station is an expandable card holding its core info and then its own addresses and phones.",
+      "steps": [
+        "To add a new station, click «Add Station» at the top of the card.",
+        "Fill in the core info: station type, activity type and trader.",
+        "Click «Save Station» to create the station.",
+        "After the station is saved, you can manage that station's addresses and phones in the tables below it.",
+        "Use the buttons on each card to edit or delete a station."
+      ],
+      "tips": [
+        "Each station saves independently; this page has no global save button.",
+        "You can't add an address or phone to a station until you've saved the station first.",
+        "The «Active» option only appears after the station's first save."
+      ]
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Why can't I edit the company info (name, address, …) here?",
+        "a": "Because every brokerage is a company, and the general company data is managed on the «Company Information» page. This page only shows it and edits the trading stations."
+      },
+      {
+        "q": "Why can't I add an address or phone to a station?",
+        "a": "You must first save the station itself with the «Save Station» button; after that, the station's addresses and phones tables become active."
+      },
+      {
+        "q": "Why is there no global save button?",
+        "a": "Each station saves separately and immediately; there's no need for a single page-wide save button."
+      },
+      {
+        "q": "Why can't I see any section?",
+        "a": "Because you haven't selected a brokerage yet. Select one from the card at the top first."
+      }
+    ]
+  }
+}

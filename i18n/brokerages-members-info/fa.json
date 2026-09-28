@@ -1,0 +1,105 @@
+{
+  "toolbar": {
+    "description": "مدیریت اطلاعات اعضا شامل سهامداران و طرف‌های مرتبط",
+    "saveDraft": "ذخیره پیش‌نویس",
+    "submit": "ارسال"
+  },
+  "form": {
+    "sectionSelector": {
+      "label": "نوع اعضا",
+      "placeholder": "یک بخش را انتخاب کنید",
+      "shareholders": "سهامداران",
+      "relatedPersons": "اشخاص مرتبط"
+    },
+    "sections": {
+      "shareholders": "سهامداران",
+      "relatedPersons": "کارکنان و اشخاص وابسته"
+    },
+    "fields": {
+      "pickPerson": "انتخاب شخص",
+      "shareholderName": "نام سهامدار",
+      "ownershipType": "نوع مالکیت",
+      "ownershipPercentage": "درصد مالکیت",
+      "shareCount": "تعداد سهام",
+      "boardRepresentative": "نماینده هیئت مدیره",
+      "registrationDate": "تاریخ ثبت",
+      "lastUpdateDate": "آخرین بروزرسانی",
+      "bourseCode": "کد بورسی",
+      "personStatus": "وضعیت عضویت",
+      "workLocation": "محل کار",
+      "stockExchange": "بورس فعالیت",
+      "position": "سمت",
+      "description": "توضیحات"
+    },
+    "placeholders": {
+      "bourseCode": "کد بورسی را وارد کنید",
+      "personStatus": "وضعیت را انتخاب کنید",
+      "workLocation": "محل کار را انتخاب کنید",
+      "stockExchange": "بورس فعالیت را انتخاب کنید",
+      "position": "سمت را انتخاب کنید",
+      "description": "توضیحات را وارد کنید"
+    },
+    "actions": {
+      "addPerson": "افزودن کارکنان",
+      "cancel": "لغو",
+      "save": "ذخیره"
+    },
+    "messages": {
+      "brokerageRequired": "ابتدا یک کارگزاری را انتخاب کنید",
+      "personRequired": "ابتدا یک شخص را انتخاب کنید",
+      "allFieldsRequired": "لطفاً همهٔ فیلدهای الزامی را تکمیل کنید",
+      "itemSaved": "با موفقیت ذخیره شد",
+      "itemDeleted": "با موفقیت حذف شد",
+      "saveFailed": "ذخیره ناموفق بود"
+    },
+    "personReadOnly": {
+      "fullName": "نام کامل",
+      "nationalId": "کد ملی",
+      "fatherName": "نام پدر",
+      "dateOfBirth": "تاریخ تولد",
+      "gender": "جنسیت",
+      "age": "سن",
+      "email": "ایمیل",
+      "phone": "تلفن",
+      "address": "آدرس",
+      "postalCode": "کد پستی",
+      "notFound": "شخصی یافت نشد"
+    },
+    "education": {
+      "title": "تحصیلات و مدارک",
+      "empty": "سابقه تحصیلی ثبت نشده است",
+      "certificates": "مدارک",
+      "noCertificates": "—",
+      "present": "اکنون"
+    },
+    "familyDependents": {
+      "title": "خانواده / اشخاص تحت تکفل",
+      "empty": "هیچ شخص تحت تکفلی ثبت نشده",
+      "nationalId": "کد ملی"
+    },
+    "holder": {
+      "individual": "شخص حقیقی",
+      "legalEntity": "شخص حقوقی",
+      "notFound": "اطلاعات سهامدار یافت نشد"
+    },
+    "shareholders": {
+      "managedElsewhere": "سهامداران از طریق صفحه شرکت مدیریت می‌شوند؛ این بخش فقط برای مشاهده است.",
+      "empty": "هیچ سهامداری ثبت نشده"
+    },
+    "personInfoTitle": "اطلاعات شخص",
+    "noRelatedPersons": "هنوز شخص مرتبطی اضافه نشده است",
+    "clickAddToStart": "برای شروع روی 'افزودن' کلیک کنید",
+    "personNumber": "شخص {{number}}",
+    "noBourseCode": "بدون کد بورسی",
+    "loadingPerson": "در حال بارگذاری…"
+  },
+  "sidebar": {
+    "title": "اطلاعات اعضا",
+    "totalShareholders": "کل سهامداران",
+    "relatedPersons": "اشخاص مرتبط",
+    "ownershipDistribution": "توزیع مالکیت",
+    "lastUpdated": "آخرین به‌روزرسانی",
+    "membersProfile": "پروفایل اعضا",
+    "profileDescription": "مدیریت تمام اطلاعات مرتبط با اعضا در یک مکان"
+  }
+}

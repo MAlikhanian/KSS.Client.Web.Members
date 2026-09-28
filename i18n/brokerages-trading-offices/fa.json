@@ -1,0 +1,89 @@
+{
+  "toolbar": {
+    "description": "مدیریت دفاتر معاملاتی",
+    "saveDraft": "ذخیره پیش‌نویس",
+    "submit": "ارسال"
+  },
+  "form": {
+    "sections": {
+      "tradingOffices": "دفاتر معاملاتی"
+    },
+    "fields": {
+      "officeType": "نوع دفتر",
+      "officeCount": "تعداد دفاتر",
+      "activityType": "نوع فعالیت",
+      "officeCountry": "کشور دفتر",
+      "officeProvince": "استان دفتر",
+      "officeCity": "شهر دفتر",
+      "officeManagerName": "مدیر دفتر",
+      "employeeCount": "تعداد کارکنان",
+      "officePhone": "تلفن دفتر",
+      "officeAddress": "آدرس دفتر",
+      "nameFa": "نام (فارسی)",
+      "nameEn": "نام (انگلیسی)",
+      "branchCode": "کد دفتر",
+      "isActive": "فعال",
+      "address": "آدرس",
+      "phone": "تلفن",
+      "selectedManager": "مدیر انتخاب‌شده"
+    },
+    "placeholders": {
+      "officeType": "نوع دفتر را انتخاب کنید",
+      "officeCount": "تعداد دفاتر را وارد کنید",
+      "activityType": "نوع فعالیت را انتخاب کنید",
+      "officeCountry": "کشور دفتر را وارد کنید",
+      "officeProvince": "استان دفتر را وارد کنید",
+      "officeCity": "شهر دفتر را وارد کنید",
+      "officeManagerName": "نام مدیر دفتر را وارد کنید",
+      "employeeCount": "تعداد کارمندان را وارد کنید",
+      "officePhone": "شماره تلفن دفتر را وارد کنید",
+      "officeAddress": "آدرس دفتر را وارد کنید"
+    },
+    "options": {
+      "mainOffice": "دفتر مرکزی",
+      "branchOffice": "دفتر شعبه",
+      "representativeOffice": "دفتر نمایندگی",
+      "tradingFloor": "سالن معاملات",
+      "trading": "معاملات",
+      "investmentAdvisory": "مشاوره سرمایه‌گذاری",
+      "assetManagement": "مدیریت دارایی",
+      "research": "تحقیقات",
+      "customerService": "خدمات مشتریان"
+    },
+    "actions": {
+      "addOffice": "افزودن دفتر",
+      "cancel": "لغو",
+      "save": "ثبت دفتر",
+      "update": "بروزرسانی"
+    },
+    "noOffices": "هنوز هیچ دفتر معاملاتی اضافه نشده",
+    "clickAddToStart": "برای شروع روی 'افزودن دفتر' کلیک کنید",
+    "officeNumber": "دفتر {{number}}",
+    "unsaved": "ذخیره‌نشده",
+    "saveFirstForContacts": "برای افزودن آدرس و تلفن، ابتدا دفتر را ثبت کنید.",
+    "messages": {
+      "created": "ثبت شد",
+      "updated": "بروزرسانی شد",
+      "deleted": "حذف شد",
+      "saveError": "خطا در ذخیره",
+      "deleteError": "خطا در حذف",
+      "nameRequired": "لطفاً نام دفتر را وارد کنید",
+      "officeTypeRequired": "لطفاً نوع دفتر را انتخاب کنید",
+      "managerRequired": "لطفاً مدیر دفتر را انتخاب کنید"
+    }
+  },
+  "sidebar": {
+    "title": "نمای کلی دفاتر",
+    "totalOffices": "کل دفاتر",
+    "added": "دفتر",
+    "totalEmployees": "کل کارمندان",
+    "employees": "نفر",
+    "provinces": "استان‌ها",
+    "provincesCount": "استان",
+    "countries": "کشورها",
+    "lastUpdated": "آخرین بروزرسانی",
+    "notYetUpdated": "هنوز بروزرسانی نشده",
+    "officesProfile": "پروفایل دفاتر",
+    "profileDescription": "اطلاعات دفاتر معاملاتی خود را تکمیل کنید تا تمام ویژگی‌ها را باز کنید"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "toolbar": {
+    "description": "Manage ongoing and closed legal cases",
+    "saveDraft": "Save Draft",
+    "submit": "Submit Information"
+  },
+  "form": {
+    "casesCount": "cases",
+    "caseNumber": "Case {{number}}",
+    "noCases": "No legal cases added yet",
+    "clickAddToStart": "Click 'Add Case' to get started",
+    "sections": {
+      "legalCases": "Legal Cases"
+    },
+    "fields": {
+      "caseNumber": "Case Number",
+      "caseType": "Case Type",
+      "caseStatus": "Case Status",
+      "plaintiff": "Plaintiff",
+      "defendant": "Defendant",
+      "court": "Court",
+      "filingDate": "Filing Date",
+      "closingDate": "Closing Date",
+      "caseDescription": "Case Description",
+      "documents": "Documents"
+    },
+    "placeholders": {
+      "caseNumber": "Enter case number",
+      "caseType": "Enter case type",
+      "plaintiff": "Enter plaintiff name",
+      "defendant": "Enter defendant name",
+      "court": "Enter court name",
+      "caseDescription": "Enter case description and details"
+    },
+    "statuses": {
+      "ongoing": "Ongoing",
+      "closed": "Closed"
+    },
+    "actions": {
+      "addCase": "Add Case",
+      "upload": "Upload",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  },
+  "sidebar": {
+    "title": "Legal Cases Overview",
+    "totalCases": "Total Cases",
+    "ongoingCases": "Ongoing Cases",
+    "closedCases": "Closed Cases",
+    "totalDocuments": "Total Documents",
+    "cases": "cases",
+    "documents": "documents",
+    "lastUpdated": "Last Updated",
+    "notYetUpdated": "Not yet updated",
+    "profileTitle": "Legal Cases",
+    "profileDescription": "Ongoing and closed legal cases information"
+  }
+}

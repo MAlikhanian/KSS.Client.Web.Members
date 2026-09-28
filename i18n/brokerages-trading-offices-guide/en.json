@@ -1,0 +1,125 @@
+{
+  "title": "Brokerage Trading Offices — Guide",
+  "subtitle": "A read-only training walkthrough with sample data and an explanation of every section",
+  "entry": {
+    "button": "Visual guide",
+    "backToPage": "Back to Trading Offices"
+  },
+  "demoBanner": "Training mode — all data on this page is sample data shown for demonstration only. Nothing is saved here and every control is read-only.",
+  "labels": {
+    "guide": "Guide",
+    "whatIs": "What is this section?",
+    "howTo": "How do I use it?",
+    "tips": "Tips",
+    "demoData": "Sample data (display only)",
+    "realControlNote": "The real control for this section is shown below, in read-only mode.",
+    "brokerageField": "Brokerage",
+    "editMode": "Edit mode:"
+  },
+  "quickStart": {
+    "title": "What does this page do?",
+    "intro": "The «Trading Offices» page manages a brokerage's branches / trading offices. Because every brokerage is also a «company», the company data is view-only and only the office list is editable:",
+    "steps": [
+      "First a brokerage is selected; until then nothing is shown.",
+      "The «Company information» block (name history, registration, emails, phones, addresses and stakeholders) is read-only; to edit it go to the «Company Information» page.",
+      "In «Trading Offices» you can add, edit and delete offices. Each office has core info (name, code, office type, activity type, employee count, manager) and then its own addresses and phones.",
+      "Each office saves independently; this page has no global save button."
+    ]
+  },
+  "sections": {
+    "selection": {
+      "title": "Select brokerage",
+      "intro": "The card at the top used to pick the brokerage. Until one is selected, no section is shown.",
+      "steps": [],
+      "tips": [
+        "This is only for selecting a brokerage; the selection itself isn't edited.",
+        "The selection persists between visits."
+      ]
+    },
+    "nameHistory": {
+      "title": "Name history",
+      "intro": "The company/brokerage names over time. This comes from the company data and is read-only here.",
+      "steps": [],
+      "tips": [
+        "To edit names, go to the «Company Information» page; it can't be changed here."
+      ]
+    },
+    "registrationLegal": {
+      "title": "Registration & legal",
+      "intro": "Company registration data: dates and number, place of registration, national ID and economic code. View-only on this page.",
+      "steps": [],
+      "tips": [
+        "These fields are part of the company data and are only editable on the «Company Information» page."
+      ]
+    },
+    "emails": {
+      "title": "Emails",
+      "intro": "The company's emails with label, address and «primary»/«verified» flags — view only.",
+      "steps": [],
+      "tips": [
+        "«Primary» shows a yellow star and «verified» a green check."
+      ]
+    },
+    "phones": {
+      "title": "Phones",
+      "intro": "The company's phone numbers with label, number (E.164) and «primary»/«verified» flags — view only.",
+      "steps": [],
+      "tips": [
+        "Numbers are shown in international format (+ and country code)."
+      ]
+    },
+    "addresses": {
+      "title": "Addresses",
+      "intro": "The company's addresses with label, location, street, postal code and «primary» flag — view only.",
+      "steps": [],
+      "tips": [
+        "A 10-digit postal code is shown as 5-5."
+      ]
+    },
+    "stakeholders": {
+      "title": "Stakeholders",
+      "intro": "People/companies with an ownership relationship, with stakeholder type, ownership % and share count — view only.",
+      "steps": [],
+      "tips": [
+        "In this training sample the related-party name shows as «unknown» because it is not connected to real data."
+      ]
+    },
+    "tradingOffices": {
+      "title": "Trading offices",
+      "intro": "The only editable section on this page: the list of the brokerage's trading offices / branches. Each office is an expandable card holding its core info and then its own addresses and phones.",
+      "steps": [
+        "To add a new office, click «Add Office» at the top of the card.",
+        "Fill in the core info: name (Persian), branch code, office type, activity type, employee count and branch manager.",
+        "Click «Save Branch» to create the office.",
+        "After the office is saved, you can manage that office's addresses and phones in the tables below it.",
+        "Use the buttons on each card to edit or delete an office."
+      ],
+      "tips": [
+        "Each office saves independently; this page has no global save button.",
+        "You can't add an address or phone to an office until you've saved the office first.",
+        "The «Active» option only appears after the office's first save."
+      ]
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Why can't I edit the company info (name, address, …) here?",
+        "a": "Because every brokerage is a company, and the general company data is managed on the «Company Information» page. This page only shows it and edits the trading offices."
+      },
+      {
+        "q": "Why can't I add an address or phone to an office?",
+        "a": "You must first save the office itself with the «Save Branch» button; after that, the office's addresses and phones tables become active."
+      },
+      {
+        "q": "Why is there no global save button?",
+        "a": "Each office saves separately and immediately; there's no need for a single page-wide save button."
+      },
+      {
+        "q": "Why can't I see any section?",
+        "a": "Because you haven't selected a brokerage yet. Select one from the card at the top first."
+      }
+    ]
+  }
+}

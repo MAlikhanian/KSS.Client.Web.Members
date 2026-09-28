@@ -1,0 +1,86 @@
+{
+  "toolbar": {
+    "description": "View and manage technical approvals and certifications of brokerages",
+    "saveDraft": "Save Draft",
+    "submit": "Submit Information"
+  },
+  "table": {
+    "title": "Brokerage Technical Approvals",
+    "columns": {
+      "brokerage": "Brokerage",
+      "approvalType": "Approval Type",
+      "approvalNumber": "Approval Number",
+      "issueDate": "Issue Date",
+      "contractor": "Contractor",
+      "version": "Version",
+      "status": "Status",
+      "validityDate": "Validity Date",
+      "isExpired": "Expired"
+    },
+    "filters": {
+      "search": "Search",
+      "searchPlaceholder": "Search in brokerage name, approval number...",
+      "brokerage": "Brokerage",
+      "allBrokerages": "All Brokerages",
+      "status": "Status",
+      "allStatuses": "All Statuses"
+    },
+    "resultsInfo": "Showing {{count}} of {{total}} results",
+    "noResults": "No results found",
+    "pagination": {
+      "page": "Page {{current}} of {{total}}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "badges": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "sidebar": {
+    "title": "Technical Approvals Statistics",
+    "totalApprovals": "Total Approvals",
+    "items": "items",
+    "activeApprovals": "Active Approvals",
+    "expiredApprovals": "Expired Approvals",
+    "brokeragesCount": "Number of Brokerages",
+    "brokerages": "brokerages",
+    "uniqueContractors": "Unique Contractors",
+    "contractors": "contractors",
+    "lastUpdated": "Last Updated",
+    "notYetUpdated": "Not yet updated",
+    "profileTitle": "Technical Approvals",
+    "profileDescription": "Information on technical approvals and brokerage certifications"
+  },
+  "form": {
+    "approvalsCount": "approvals",
+    "approvalNumber": "Approval {{number}}",
+    "noApprovals": "No approvals added yet",
+    "clickAddToStart": "Click 'Add Approval' to get started",
+    "fields": {
+      "technicalApprovalId": "Technical Approval ID",
+      "technicalApprovalIdName": "Technical Approval Name",
+      "featureName": "Feature Name",
+      "contractorId": "Contractor ID",
+      "contractorName": "Contractor Name",
+      "statusId": "Status ID",
+      "statusName": "Status Name",
+      "description": "Description"
+    },
+    "placeholders": {
+      "technicalApprovalId": "Enter technical approval ID",
+      "technicalApprovalIdName": "Enter technical approval name",
+      "featureName": "Enter feature name",
+      "contractorId": "Enter contractor ID",
+      "contractorName": "Enter contractor name",
+      "approvalNum": "Enter approval number",
+      "statusName": "Enter status name",
+      "description": "Enter description"
+    },
+    "actions": {
+      "addApproval": "Add Approval",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  }
+}

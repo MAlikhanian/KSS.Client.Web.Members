@@ -1,0 +1,89 @@
+{
+  "toolbar": {
+    "description": "Trading Offices Management",
+    "saveDraft": "Save Draft",
+    "submit": "Submit"
+  },
+  "form": {
+    "sections": {
+      "tradingOffices": "Trading Offices"
+    },
+    "fields": {
+      "officeType": "Office Type",
+      "officeCount": "Number of Offices",
+      "activityType": "Type of Activity",
+      "officeCountry": "Office Country",
+      "officeProvince": "Office Province",
+      "officeCity": "Office City",
+      "officeManagerName": "Branch Manager",
+      "employeeCount": "Number of Employees",
+      "officePhone": "Office Phone",
+      "officeAddress": "Office Address",
+      "nameFa": "Name (Persian)",
+      "nameEn": "Name (English)",
+      "branchCode": "Branch Code",
+      "isActive": "Active",
+      "address": "Address",
+      "phone": "Phone",
+      "selectedManager": "Selected Manager"
+    },
+    "placeholders": {
+      "officeType": "Select office type",
+      "officeCount": "Enter number of offices",
+      "activityType": "Select type of activity",
+      "officeCountry": "Enter office country",
+      "officeProvince": "Enter office province",
+      "officeCity": "Enter office city",
+      "officeManagerName": "Enter office manager name",
+      "employeeCount": "Enter number of employees",
+      "officePhone": "Enter office phone number",
+      "officeAddress": "Enter office address"
+    },
+    "options": {
+      "mainOffice": "Main Office",
+      "branchOffice": "Branch Office",
+      "representativeOffice": "Representative Office",
+      "tradingFloor": "Trading Floor",
+      "trading": "Trading",
+      "investmentAdvisory": "Investment Advisory",
+      "assetManagement": "Asset Management",
+      "research": "Research",
+      "customerService": "Customer Service"
+    },
+    "actions": {
+      "addOffice": "Add Office",
+      "cancel": "Cancel",
+      "save": "Save Branch",
+      "update": "Update"
+    },
+    "noOffices": "No trading offices added yet",
+    "clickAddToStart": "Click 'Add Office' to get started",
+    "officeNumber": "Office {{number}}",
+    "unsaved": "Unsaved",
+    "saveFirstForContacts": "Save the branch first to add addresses and phones.",
+    "messages": {
+      "created": "Created successfully",
+      "updated": "Updated successfully",
+      "deleted": "Deleted successfully",
+      "saveError": "Failed to save",
+      "deleteError": "Failed to delete",
+      "nameRequired": "Please enter the office name",
+      "officeTypeRequired": "Please select an office type",
+      "managerRequired": "Please select a branch manager"
+    }
+  },
+  "sidebar": {
+    "title": "Offices Overview",
+    "totalOffices": "Total Offices",
+    "added": "offices",
+    "totalEmployees": "Total Employees",
+    "employees": "employees",
+    "provinces": "Provinces",
+    "provincesCount": "provinces",
+    "countries": "Countries",
+    "lastUpdated": "Last Updated",
+    "notYetUpdated": "Not yet updated",
+    "officesProfile": "Offices Profile",
+    "profileDescription": "Complete your trading offices information to unlock all features"
+  }
+}

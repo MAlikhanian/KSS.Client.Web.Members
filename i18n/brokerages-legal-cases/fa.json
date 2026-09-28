@@ -1,0 +1,59 @@
+{
+  "toolbar": {
+    "description": "مدیریت پرونده‌های حقوقی در جریان و مختومه",
+    "saveDraft": "ذخیره پیش‌نویس",
+    "submit": "ثبت اطلاعات"
+  },
+  "form": {
+    "casesCount": "پرونده",
+    "caseNumber": "پرونده {{number}}",
+    "noCases": "هنوز پرونده حقوقی اضافه نشده است",
+    "clickAddToStart": "برای شروع روی 'افزودن پرونده' کلیک کنید",
+    "sections": {
+      "legalCases": "پرونده‌های حقوقی"
+    },
+    "fields": {
+      "caseNumber": "شماره پرونده",
+      "caseType": "نوع پرونده",
+      "caseStatus": "وضعیت پرونده",
+      "plaintiff": "خواهان",
+      "defendant": "خوانده",
+      "court": "دادگاه",
+      "filingDate": "تاریخ طرح پرونده",
+      "closingDate": "تاریخ اختتام",
+      "caseDescription": "شرح پرونده",
+      "documents": "مستندات"
+    },
+    "placeholders": {
+      "caseNumber": "شماره پرونده را وارد کنید",
+      "caseType": "نوع پرونده را وارد کنید",
+      "plaintiff": "نام خواهان را وارد کنید",
+      "defendant": "نام خوانده را وارد کنید",
+      "court": "نام دادگاه را وارد کنید",
+      "caseDescription": "شرح و جزئیات پرونده را وارد کنید"
+    },
+    "statuses": {
+      "ongoing": "در جریان",
+      "closed": "مختومه"
+    },
+    "actions": {
+      "addCase": "افزودن پرونده",
+      "upload": "بارگذاری",
+      "cancel": "لغو",
+      "save": "ذخیره"
+    }
+  },
+  "sidebar": {
+    "title": "نمای کلی پرونده‌های حقوقی",
+    "totalCases": "مجموع پرونده‌ها",
+    "ongoingCases": "پرونده‌های در جریان",
+    "closedCases": "پرونده‌های مختومه",
+    "totalDocuments": "مجموع مستندات",
+    "cases": "پرونده",
+    "documents": "سند",
+    "lastUpdated": "آخرین بروزرسانی",
+    "notYetUpdated": "هنوز بروزرسانی نشده",
+    "profileTitle": "پرونده‌های حقوقی",
+    "profileDescription": "اطلاعات پرونده‌های حقوقی در جریان و مختومه"
+  }
+}

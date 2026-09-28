@@ -1,0 +1,54 @@
+{
+  "toolbar": {
+    "description": "Financial Information Management",
+    "saveDraft": "Save Draft",
+    "submit": "Submit"
+  },
+  "form": {
+    "title": "Financial Information",
+    "fields": {
+      "fiscalYear": "Fiscal Year",
+      "lastRegisteredCapital": "Last Registered Capital",
+      "paidUpCapital": "Paid-up Capital",
+      "numberOfShares": "Number of Shares"
+    },
+    "placeholders": {
+      "fiscalYear": "Enter fiscal year (e.g., 2024)",
+      "lastRegisteredCapital": "Enter last registered capital amount",
+      "paidUpCapital": "Enter paid-up capital amount",
+      "numberOfShares": "Enter number of shares"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "noRecords": "No financial information recorded",
+    "addRecord": "Add Financial Information",
+    "editRecord": "Edit Financial Information",
+    "errors": {
+      "loadFailed": "Failed to load financial information",
+      "addFailed": "Failed to add financial information",
+      "editFailed": "Failed to update financial information",
+      "deleteFailed": "Failed to delete financial information"
+    },
+    "messages": {
+      "addSuccess": "Financial information added successfully",
+      "editSuccess": "Financial information updated successfully",
+      "deleteSuccess": "Financial information deleted successfully"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "add": "Add",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "sidebar": {
+    "title": "Financial Overview",
+    "capitalStatus": "Capital Status",
+    "financialHealth": "Financial Health",
+    "lastUpdated": "Last Updated",
+    "financialProfile": "Financial Profile",
+    "profileDescription": "Complete your financial information to unlock all features"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "toolbar": {
+    "description": "مشاهده و مدیریت مجوزهای فنی و تأییدیه‌های کارگزاری‌ها",
+    "saveDraft": "ذخیره پیش‌نویس",
+    "submit": "ثبت اطلاعات"
+  },
+  "table": {
+    "title": "مجوزهای فنی کارگزاری‌ها",
+    "columns": {
+      "brokerage": "کارگزاری",
+      "approvalType": "نوع مجوز",
+      "approvalNumber": "شماره مجوز",
+      "issueDate": "تاریخ صدور",
+      "contractor": "پیمانکار",
+      "version": "نسخه",
+      "status": "وضعیت",
+      "validityDate": "تاریخ اعتبار",
+      "isExpired": "منقضی شده"
+    },
+    "filters": {
+      "search": "جستجو",
+      "searchPlaceholder": "جستجو در نام کارگزاری، شماره مجوز...",
+      "brokerage": "کارگزاری",
+      "allBrokerages": "همه کارگزاری‌ها",
+      "status": "وضعیت",
+      "allStatuses": "همه وضعیت‌ها"
+    },
+    "resultsInfo": "نمایش {{count}} مورد از {{total}} نتیجه",
+    "noResults": "نتیجه‌ای یافت نشد",
+    "pagination": {
+      "page": "صفحه {{current}} از {{total}}",
+      "previous": "قبلی",
+      "next": "بعدی"
+    },
+    "badges": {
+      "yes": "بله",
+      "no": "خیر"
+    }
+  },
+  "sidebar": {
+    "title": "آمار مجوزهای فنی",
+    "totalApprovals": "مجموع مجوزها",
+    "items": "مورد",
+    "activeApprovals": "مجوزهای فعال",
+    "expiredApprovals": "مجوزهای منقضی شده",
+    "brokeragesCount": "تعداد کارگزاری‌ها",
+    "brokerages": "کارگزاری",
+    "uniqueContractors": "پیمانکاران منحصر به فرد",
+    "contractors": "پیمانکار",
+    "lastUpdated": "آخرین بروزرسانی",
+    "notYetUpdated": "هنوز بروزرسانی نشده",
+    "profileTitle": "مجوزهای فنی",
+    "profileDescription": "اطلاعات مجوزهای فنی و تأییدیه‌های کارگزاری‌ها"
+  },
+  "form": {
+    "approvalsCount": "مجوز",
+    "approvalNumber": "مجوز {{number}}",
+    "noApprovals": "هنوز مجوزی اضافه نشده است",
+    "clickAddToStart": "برای شروع روی 'افزودن مجوز' کلیک کنید",
+    "fields": {
+      "technicalApprovalId": "شناسه مجوز فنی",
+      "technicalApprovalIdName": "نام مجوز فنی",
+      "featureName": "نام ویژگی",
+      "contractorId": "شناسه پیمانکار",
+      "contractorName": "نام پیمانکار",
+      "statusId": "شناسه وضعیت",
+      "statusName": "نام وضعیت",
+      "description": "توضیحات"
+    },
+    "placeholders": {
+      "technicalApprovalId": "شناسه مجوز فنی را وارد کنید",
+      "technicalApprovalIdName": "نام مجوز فنی را وارد کنید",
+      "featureName": "نام ویژگی را وارد کنید",
+      "contractorId": "شناسه پیمانکار را وارد کنید",
+      "contractorName": "نام پیمانکار را وارد کنید",
+      "approvalNum": "شماره مجوز را وارد کنید",
+      "statusName": "نام وضعیت را وارد کنید",
+      "description": "توضیحات را وارد کنید"
+    },
+    "actions": {
+      "addApproval": "افزودن مجوز",
+      "cancel": "لغو",
+      "save": "ذخیره"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "toolbar": {
+    "description": "مدیریت اطلاعات مالی",
+    "saveDraft": "ذخیره پیش‌نویس",
+    "submit": "ارسال"
+  },
+  "form": {
+    "title": "اطلاعات مالی",
+    "fields": {
+      "fiscalYear": "سال مالی",
+      "lastRegisteredCapital": "آخرین سرمایه ثبت شده",
+      "paidUpCapital": "سرمایه پرداخت شده",
+      "numberOfShares": "تعداد سهام"
+    },
+    "placeholders": {
+      "fiscalYear": "سال مالی را وارد کنید (مثال: ۱۴۰۳)",
+      "lastRegisteredCapital": "مبلغ آخرین سرمایه ثبت شده را وارد کنید",
+      "paidUpCapital": "مبلغ سرمایه پرداخت شده را وارد کنید",
+      "numberOfShares": "تعداد سهام را وارد کنید"
+    },
+    "actions": {
+      "cancel": "لغو",
+      "save": "ذخیره"
+    },
+    "noRecords": "هیچ اطلاعات مالی ثبت نشده است",
+    "addRecord": "افزودن اطلاعات مالی",
+    "editRecord": "ویرایش اطلاعات مالی",
+    "errors": {
+      "loadFailed": "بارگذاری اطلاعات مالی با خطا مواجه شد",
+      "addFailed": "افزودن اطلاعات مالی با خطا مواجه شد",
+      "editFailed": "به‌روزرسانی اطلاعات مالی با خطا مواجه شد",
+      "deleteFailed": "حذف اطلاعات مالی با خطا مواجه شد"
+    },
+    "messages": {
+      "addSuccess": "اطلاعات مالی با موفقیت افزوده شد",
+      "editSuccess": "اطلاعات مالی با موفقیت به‌روزرسانی شد",
+      "deleteSuccess": "اطلاعات مالی با موفقیت حذف شد"
+    }
+  },
+  "common": {
+    "loading": "در حال بارگذاری...",
+    "add": "افزودن",
+    "cancel": "لغو",
+    "save": "ذخیره"
+  },
+  "sidebar": {
+    "title": "نمای کلی مالی",
+    "capitalStatus": "وضعیت سرمایه",
+    "financialHealth": "سلامت مالی",
+    "lastUpdated": "آخرین به‌روزرسانی",
+    "financialProfile": "پروفایل مالی",
+    "profileDescription": "اطلاعات مالی خود را تکمیل کنید تا تمام ویژگی‌ها را باز کنید"
+  }
+}

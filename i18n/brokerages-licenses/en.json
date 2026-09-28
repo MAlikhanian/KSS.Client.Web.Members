@@ -1,0 +1,98 @@
+{
+  "toolbar": {
+    "description": "View and manage brokerage activity licenses",
+    "saveDraft": "Save Draft",
+    "submit": "Submit Information"
+  },
+  "table": {
+    "title": "Brokerage Activity Licenses",
+    "columns": {
+      "brokerage": "Brokerage",
+      "licenseType": "License Type",
+      "licenseNumber": "License Number",
+      "nationalId": "National ID",
+      "startDate": "Start Date",
+      "expireDate": "Expiration Date",
+      "status": "Status",
+      "instituteType": "Institute Type",
+      "isExpired": "Expired"
+    },
+    "filters": {
+      "search": "Search",
+      "searchPlaceholder": "Search in name, license number, national ID...",
+      "brokerage": "Brokerage",
+      "allBrokerages": "All Brokerages",
+      "licenseType": "License Type",
+      "allTypes": "All Types",
+      "status": "Status",
+      "allStatuses": "All Statuses"
+    },
+    "resultsInfo": "Showing {{count}} of {{total}} results",
+    "noResults": "No results found",
+    "pagination": {
+      "page": "Page {{current}} of {{total}}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "badges": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "sidebar": {
+    "title": "Activity Licenses Statistics",
+    "totalLicenses": "Total Licenses",
+    "items": "items",
+    "activeLicenses": "Active Licenses",
+    "expiredLicenses": "Expired Licenses",
+    "brokeragesCount": "Number of Brokerages",
+    "brokerages": "brokerages",
+    "licenseTypes": "License Types",
+    "types": "types",
+    "lastUpdated": "Last Updated",
+    "notYetUpdated": "Not yet updated",
+    "profileTitle": "Activity Licenses",
+    "profileDescription": "Brokerage activity license information"
+  },
+  "form": {
+    "licensesCount": "licenses",
+    "licenseNumber": "License {{number}}",
+    "noLicenses": "No licenses added yet",
+    "clickAddToStart": "Click 'Add License' to get started",
+    "fields": {
+      "licenseTypeId": "License Type ID",
+      "newLicenseTypeId": "New License Type ID",
+      "licenseStatusId": "License Status ID",
+      "instituteTypeId": "Institute Type ID",
+      "instituteKindId": "Institute Kind ID",
+      "instituteKind": "Institute Kind",
+      "licenseStatusDescription": "License Status Description",
+      "trusteeId": "Trustee ID",
+      "trusteeContractStart": "Trustee Contract Start",
+      "trusteeContractExpire": "Trustee Contract Expire",
+      "industryCategory": "Industry Category",
+      "signInIndustry": "Sign in Industry"
+    },
+    "placeholders": {
+      "nationalId": "Enter national ID",
+      "licenseTypeId": "Enter license type ID",
+      "licenseType": "Enter license type",
+      "newLicenseTypeId": "Enter new license type ID",
+      "licenseNo": "Enter license number",
+      "licenseStatus": "Enter license status",
+      "licenseStatusDescription": "Enter license status description",
+      "instituteTypeId": "Enter institute type ID",
+      "instituteType": "Enter institute type",
+      "instituteKindId": "Enter institute kind ID",
+      "instituteKind": "Enter institute kind",
+      "trusteeId": "Enter trustee ID",
+      "industryCategory": "Enter industry category",
+      "signInIndustry": "Enter sign in industry"
+    },
+    "actions": {
+      "addLicense": "Add License",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  }
+}

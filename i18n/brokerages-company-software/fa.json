@@ -1,0 +1,54 @@
+{
+  "toolbar": {
+    "description": "مدیریت نرم‌افزارها و سیستم‌های شرکت",
+    "saveDraft": "ذخیره پیش‌نویس",
+    "submit": "ارسال"
+  },
+  "form": {
+    "sections": {
+      "softwareSystems": "نرم‌افزارها و سیستم‌ها"
+    },
+    "fields": {
+      "backOfficeSecurities": "بک آفیس (بورس اوراق بهادار)",
+      "backOfficeCommodities": "بک آفیس (بورس کالا)",
+      "onlineTradingSecurities": "سیستم معاملات آنلاین (اوراق بهادار)",
+      "onlineTradingFuturesSecurities": "سیستم معاملات آنلاین (آتی - اوراق بهادار)",
+      "onlineTradingFuturesCommodities": "سیستم معاملات آنلاین (آتی - بورس کالا)",
+      "accountingSystem": "سیستم حسابداری",
+      "portfolioManagementSoftware": "نرم‌افزار مدیریت پرتفوی",
+      "cmsSoftware": "سیستم مدیریت محتوای وب‌سایت",
+      "callCenterSystem": "سیستم مرکز تماس"
+    },
+    "provider": "ارائه‌دهنده",
+    "selectProvider": "انتخاب ارائه‌دهنده",
+    "selectSoftware": "انتخاب نرم‌افزار",
+    "none": "— هیچکدام —",
+    "messages": {
+      "saved": "نرم‌افزار ذخیره شد.",
+      "cleared": "انتخاب پاک شد.",
+      "noBrokerage": "برای مدیریت نرم‌افزارها، یک کارگزاری انتخاب کنید."
+    }
+  },
+  "grid": {
+    "title": "تخصیص نرم‌افزارها",
+    "columns": {
+      "category": "دسته‌بندی",
+      "provider": "ارائه‌دهنده",
+      "software": "نرم‌افزار"
+    },
+    "addAssignment": "افزودن تخصیص",
+    "editAssignment": "ویرایش تخصیص",
+    "noAssignments": "هنوز نرم‌افزاری تخصیص نیافته است.",
+    "selectCategory": "انتخاب دسته‌بندی"
+  },
+  "sidebar": {
+    "title": "نمای کلی نرم‌افزارها",
+    "totalSystems": "کل سیستم‌ها",
+    "onlineSystems": "سیستم‌های آنلاین",
+    "tradingSystems": "سیستم‌های معاملاتی",
+    "supportSystems": "سیستم‌های پشتیبانی",
+    "lastUpdated": "آخرین بروزرسانی",
+    "softwareProfile": "پروفایل نرم‌افزار",
+    "profileDescription": "اطلاعات نرم‌افزارهای شرکت خود را تکمیل کنید تا تمام ویژگی‌ها را باز کنید"
+  }
+}

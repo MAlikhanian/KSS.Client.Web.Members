@@ -1,0 +1,43 @@
+{
+  "toolbar": {
+    "description": "Manage cooperation with the Brokers Association",
+    "saveDraft": "Save Draft",
+    "submit": "Submit Information"
+  },
+  "form": {
+    "personsCount": "persons",
+    "sections": {
+      "volunteers": "Volunteers",
+      "workingGroupVolunteers": "Volunteer for Working Groups",
+      "boardVolunteers": "Volunteer for Board of Directors",
+      "representatives": "Representatives",
+      "workingGroupRepresentatives": "Representative in Working Groups",
+      "boardRepresentatives": "Representative in Board of Directors"
+    },
+    "fields": {
+      "person": "Person",
+      "volunteerForm": "Volunteer Form"
+    },
+    "placeholders": {
+      "selectPerson": "Select person from related persons"
+    },
+    "actions": {
+      "addVolunteer": "Add Volunteer",
+      "addRepresentative": "Add Representative",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  },
+  "sidebar": {
+    "title": "Association Cooperation Overview",
+    "totalVolunteers": "Total Volunteers",
+    "totalRepresentatives": "Total Representatives",
+    "workingGroupVolunteers": "Working Group Volunteers",
+    "boardVolunteers": "Board Volunteers",
+    "persons": "persons",
+    "lastUpdated": "Last Updated",
+    "notYetUpdated": "Not yet updated",
+    "profileTitle": "Association Cooperation",
+    "profileDescription": "Cooperation information with the Brokers Association"
+  }
+}

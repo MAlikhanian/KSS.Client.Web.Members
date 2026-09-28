@@ -1,0 +1,43 @@
+{
+  "toolbar": {
+    "description": "Manage board of directors committees",
+    "saveDraft": "Save Draft",
+    "submit": "Submit Information"
+  },
+  "form": {
+    "activeCommittees": "active committees",
+    "sections": {
+      "committees": "Board Committees"
+    },
+    "committees": {
+      "audit": "Audit Committee",
+      "credit": "Credit Committee",
+      "risk": "Risk Committee",
+      "hr": "Human Resources Committee"
+    },
+    "fields": {
+      "committeeName": "Committee Name",
+      "meetingMinutes": "Latest Meeting Minutes"
+    },
+    "placeholders": {
+      "committeeName": "Enter committee name"
+    },
+    "actions": {
+      "addOtherCommittee": "Add Other Committee",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  },
+  "sidebar": {
+    "title": "Board Committees Overview",
+    "totalCommittees": "Total Committees",
+    "activeCommittees": "Active Committees",
+    "totalDocuments": "Total Documents",
+    "committees": "committees",
+    "documents": "documents",
+    "lastUpdated": "Last Updated",
+    "notYetUpdated": "Not yet updated",
+    "profileTitle": "Board Committees",
+    "profileDescription": "Board of directors committees information"
+  }
+}

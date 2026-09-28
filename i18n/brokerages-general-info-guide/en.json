@@ -1,0 +1,127 @@
+{
+  "title": "Brokerage General Information — Guide",
+  "subtitle": "A read-only training walkthrough with sample data and an explanation of every section",
+  "entry": {
+    "button": "Visual guide",
+    "backToPage": "Back to General Information"
+  },
+  "demoBanner": "Training mode — all data on this page is sample data shown for demonstration only. Nothing is saved here and every control is read-only.",
+  "labels": {
+    "guide": "Guide",
+    "whatIs": "What is this section?",
+    "howTo": "How do I use it?",
+    "tips": "Tips",
+    "demoData": "Sample data (display only)",
+    "realControlNote": "The real control for this section is shown below, in read-only mode.",
+    "brokerageField": "Brokerage",
+    "editMode": "Edit mode:"
+  },
+  "quickStart": {
+    "title": "What does this page do?",
+    "intro": "The «Brokerage General Information» page shows a brokerage's profile. Because every brokerage is also a «company», the company data here is view-only and only the brokerage-specific fields are editable:",
+    "steps": [
+      "First a brokerage is selected; until then nothing is shown.",
+      "The «Company information» block (name history, registration, emails, phones, addresses and stakeholders) is shown read-only; to edit it you go to the «Company Information» page.",
+      "The «Brokerage-specific information» section (organization registration date and number) is the only section edited on this page.",
+      "Finally, the «Update» button saves only those brokerage-specific fields."
+    ]
+  },
+  "sections": {
+    "selection": {
+      "title": "Select brokerage",
+      "intro": "The card at the top used to pick the brokerage. Until one is selected, no section is shown.",
+      "steps": [],
+      "tips": [
+        "This is only for selecting a brokerage; the selection itself isn't edited.",
+        "The selection persists between visits."
+      ]
+    },
+    "nameHistory": {
+      "title": "Name history",
+      "intro": "The company/brokerage names over time with translations and dates. This comes from the company data and is read-only here.",
+      "steps": [],
+      "tips": [
+        "To edit names, go to the «Company Information» page; it can't be changed here."
+      ]
+    },
+    "registrationLegal": {
+      "title": "Registration & legal",
+      "intro": "Company registration data: dates and number, place of registration, national ID and economic code. View-only on this page.",
+      "steps": [],
+      "tips": [
+        "These fields are part of the company data and are only editable on the «Company Information» page."
+      ]
+    },
+    "emails": {
+      "title": "Emails",
+      "intro": "The company's emails with label, address and «primary»/«verified» flags — view only.",
+      "steps": [],
+      "tips": [
+        "«Primary» shows a yellow star and «verified» a green check."
+      ]
+    },
+    "phones": {
+      "title": "Phones",
+      "intro": "The company's phone numbers with label, number (E.164) and «primary»/«verified» flags — view only.",
+      "steps": [],
+      "tips": [
+        "Numbers are shown in international format (+ and country code)."
+      ]
+    },
+    "addresses": {
+      "title": "Addresses",
+      "intro": "The company's addresses with label, location, street, postal code and «primary» flag — view only.",
+      "steps": [],
+      "tips": [
+        "A 10-digit postal code is shown as 5-5."
+      ]
+    },
+    "stakeholders": {
+      "title": "Stakeholders",
+      "intro": "People/companies with an ownership relationship, with stakeholder type, ownership % and share count — view only.",
+      "steps": [],
+      "tips": [
+        "In this training sample the related-party name shows as «unknown» because it is not connected to real data."
+      ]
+    },
+    "brokerageDomain": {
+      "title": "Brokerage-specific information",
+      "intro": "The only editable section on this page: brokerage-specific data including the «organization registration date» and «organization registration number». This data is specific to the brokerage and is not part of the general company data.",
+      "steps": [
+        "Pick the «organization registration date» from the calendar.",
+        "Enter the «organization registration number».",
+        "Press the «Update» button at the bottom to save."
+      ],
+      "tips": [
+        "This is the only section on this page that is saved; the rest (company information) is read-only.",
+        "Edit the general company data from the «Company Information» page."
+      ]
+    },
+    "operations": {
+      "title": "Operations",
+      "intro": "At the bottom is the «Update» button which saves only the «Brokerage-specific information» fields.",
+      "steps": [],
+      "tips": [
+        "This button saves only the brokerage-specific (organization) fields, not the general company data.",
+        "In this training sample the button is disabled and nothing is saved."
+      ]
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Why can't I edit the company info (name, address, …) here?",
+        "a": "Because every brokerage is a company, and the general company data is managed on the «Company Information» page. This page only shows it and edits the brokerage-specific fields."
+      },
+      {
+        "q": "What does the «Update» button save?",
+        "a": "Only the «Brokerage-specific information» (organization registration date and number). The other sections are read-only."
+      },
+      {
+        "q": "Why can't I see any section?",
+        "a": "Because you haven't selected a brokerage yet. Select one from the card at the top first."
+      }
+    ]
+  }
+}

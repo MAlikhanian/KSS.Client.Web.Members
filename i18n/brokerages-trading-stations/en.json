@@ -1,0 +1,75 @@
+{
+  "toolbar": {
+    "description": "Trading Stations Management",
+    "saveDraft": "Save Draft",
+    "submit": "Submit"
+  },
+  "form": {
+    "sections": {
+      "tradingStations": "Trading Stations"
+    },
+    "fields": {
+      "stationCode": "Station Code",
+      "officeType": "Office Type",
+      "activityType": "Type of Activity",
+      "traderName": "Trader Name",
+      "activityProvince": "Province of Activity",
+      "activityCity": "City of Activity",
+      "tradingOffice": "Trading Office",
+      "stationType": "Office Type",
+      "trader": "Trader",
+      "selectedTrader": "Selected Trader",
+      "isActive": "Active"
+    },
+    "placeholders": {
+      "officeType": "Select office type",
+      "activityType": "Select type of activity",
+      "traderName": "Enter trader name",
+      "activityProvince": "Enter province of activity",
+      "activityCity": "Enter city of activity",
+      "tradingOffice": "Select trading office",
+      "stationType": "Select office type"
+    },
+    "options": {
+      "mainStation": "Main Station",
+      "branchStation": "Branch Station",
+      "tradingFloor": "Trading Floor",
+      "remoteStation": "Remote Station",
+      "equityTrading": "Equity Trading",
+      "derivativesTrading": "Derivatives Trading",
+      "commodityTrading": "Commodity Trading",
+      "currencyTrading": "Currency Trading",
+      "bondTrading": "Bond Trading"
+    },
+    "actions": {
+      "addStation": "Add Station",
+      "cancel": "Cancel",
+      "save": "Save Station",
+      "update": "Update"
+    },
+    "noStations": "No trading stations added yet",
+    "clickAddToStart": "Click 'Add Station' to get started",
+    "stationNumber": "Station {{number}}",
+    "unsaved": "Unsaved",
+    "messages": {
+      "created": "Created successfully",
+      "updated": "Updated successfully",
+      "deleted": "Deleted successfully",
+      "saveError": "Failed to save",
+      "deleteError": "Failed to delete",
+      "officeRequired": "Please select a trading office",
+      "activityTypeRequired": "Please select a type of activity",
+      "traderRequired": "Please select a trader"
+    }
+  },
+  "sidebar": {
+    "title": "Stations Overview",
+    "totalStations": "Total Stations",
+    "totalTraders": "Total Traders",
+    "cities": "Cities",
+    "activityTypes": "Activity Types",
+    "lastUpdated": "Last Updated",
+    "stationsProfile": "Stations Profile",
+    "profileDescription": "Complete your trading stations information to unlock all features"
+  }
+}
