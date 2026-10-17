@@ -92,8 +92,12 @@ export function PersonnelTable({ state, update, lang, canViewPersonalData }: Per
           </Button>
         ),
         meta: {
+          // The panel is exactly as wide as the visible table area (100cqw of the
+          // @container around the scroll area) and sticks to its inline start, so
+          // its form and Save button stay fully on screen when the table scrolls
+          // sideways on a narrow screen.
           expandedContent: (person: MockPersonnel) => (
-            <div className="divide-y divide-border">
+            <div className="sticky start-0 w-[100cqw] divide-y divide-border">
               <MembershipEditForm person={person} lang={lang} />
               <EmploymentHistoryPanel person={person} />
               <DependentsPanel person={person} lang={lang} canViewPersonalData={canViewPersonalData} />
@@ -105,7 +109,7 @@ export function PersonnelTable({ state, update, lang, canViewPersonalData }: Per
         id: 'fullName',
         header: t('columns.fullName'),
         cell: ({ row }) => <span className="font-medium text-foreground">{row.original.name[lang]}</span>,
-        size: 200,
+        size: 180,
       },
       {
         id: 'nationalId',
@@ -116,36 +120,36 @@ export function PersonnelTable({ state, update, lang, canViewPersonalData }: Per
           ) : (
             <span className="text-muted-foreground">{t('values.restricted')}</span>
           ),
-        size: 140,
+        size: 130,
       },
       {
         id: 'brokerageLocation',
         header: t('columns.brokerageLocation'),
         cell: ({ row }) => lookupLabel(STOCK_EXCHANGES, row.original.brokerageLocation),
-        size: 180,
+        size: 160,
       },
       {
         id: 'businessUnit',
         header: t('columns.businessUnit'),
         cell: ({ row }) => lookupLabel(BUSINESS_UNITS, row.original.businessUnit),
-        size: 160,
+        size: 150,
       },
       {
         id: 'position',
         header: t('columns.position'),
         cell: ({ row }) => lookupLabel(POSITIONS, row.original.position),
-        size: 140,
+        size: 130,
       },
       {
         id: 'employmentStatus',
         header: t('columns.employmentStatus'),
         cell: ({ row }) => <EmploymentStatusBadge status={row.original.employmentStatus} />,
-        size: 170,
+        size: 160,
       },
       {
         id: 'actions',
         header: t('columns.actions'),
-        size: 110,
+        size: 100,
         cell: ({ row }) => (
           <div className="flex items-center gap-1">
             <Tooltip>
@@ -218,10 +222,12 @@ export function PersonnelTable({ state, update, lang, canViewPersonalData }: Per
             </CardToolbar>
           </CardHeader>
           <CardTable>
-            <ScrollArea>
-              <DataGridTable />
-              <ScrollBar orientation="horizontal" />
-            </ScrollArea>
+            <div className="@container">
+              <ScrollArea>
+                <DataGridTable />
+                <ScrollBar orientation="horizontal" />
+              </ScrollArea>
+            </div>
           </CardTable>
           <CardFooter>
             <DataGridPagination sizes={PAGE_SIZES} />
