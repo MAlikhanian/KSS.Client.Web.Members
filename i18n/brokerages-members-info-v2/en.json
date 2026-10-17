@@ -1,0 +1,84 @@
+{
+  "toolbar": {
+    "title": "Members Information (preview)",
+    "description": "New version: personnel of the selected brokerage, with dependents, search and filters"
+  },
+  "preview": {
+    "bannerTitle": "Preview - sample data only",
+    "bannerBody": "Nothing on this page is real or saved. It shows the layout of the new Members Information page for review. The current page is unchanged.",
+    "restrictedToggle": "Preview as a user without permission for national IDs and dependents"
+  },
+  "access": {
+    "denied": "You do not have access to this page."
+  },
+  "table": {
+    "pickBrokerage": "Select a brokerage to see its personnel.",
+    "empty": "No personnel match the search and filters.",
+    "count": "{{count}} of {{total}} personnel"
+  },
+  "columns": {
+    "fullName": "Full Name",
+    "nationalId": "National ID",
+    "brokerageLocation": "Brokerage Location",
+    "businessUnit": "Business Unit",
+    "position": "Position",
+    "employmentStatus": "Employment Status",
+    "actions": "Actions"
+  },
+  "values": {
+    "notRecorded": "Not recorded",
+    "unknown": "Unknown",
+    "restricted": "Restricted"
+  },
+  "status": {
+    "active": "Active",
+    "ended": "Ended Employment",
+    "awaitingStart": "Awaiting Employment Start",
+    "missing": "Not determined",
+    "conflict": "Conflicting Records",
+    "hint": {
+      "missing": "No employment record at this brokerage, so the status cannot be determined.",
+      "conflict": "Employment periods at this brokerage overlap, or more than one is current. Sequential periods are not a conflict."
+    }
+  },
+  "filters": {
+    "search": "Search",
+    "searchPlaceholder": "Search by full name or national ID",
+    "searchPlaceholderNameOnly": "Search by full name",
+    "status": "Employment status",
+    "unit": "Business unit",
+    "position": "Position",
+    "allStatuses": "All statuses",
+    "allUnits": "All business units",
+    "allPositions": "All positions",
+    "clear": "Clear"
+  },
+  "actions": {
+    "dependents": "Show details and dependents",
+    "edit": "Edit membership"
+  },
+  "dependents": {
+    "title": "Dependents ({{count}})",
+    "none": "No dependents recorded for this person.",
+    "restricted": "You do not have permission to see dependents.",
+    "columns": {
+      "name": "Name",
+      "relationship": "Relationship",
+      "nationalId": "National ID",
+      "dateOfBirth": "Date of birth"
+    },
+    "inactive": "Inactive"
+  },
+  "edit": {
+    "title": "Membership",
+    "mockNotice": "Preview: saving here does not change anything.",
+    "mockSaved": "Preview: nothing was saved."
+  },
+  "history": {
+    "title": "Employment at this brokerage",
+    "none": "No employment record at this brokerage.",
+    "from": "Start date",
+    "to": "End date",
+    "open": "Ongoing"
+  }
+}

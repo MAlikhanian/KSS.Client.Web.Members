@@ -28,6 +28,8 @@ import faBrokeragesLicenses from '@/i18n/brokerages-licenses/fa.json';
 import enBrokeragesLicenses from '@/i18n/brokerages-licenses/en.json';
 import faBrokeragesMembersInfo from '@/i18n/brokerages-members-info/fa.json';
 import enBrokeragesMembersInfo from '@/i18n/brokerages-members-info/en.json';
+import faBrokeragesMembersInfoV2 from '@/i18n/brokerages-members-info-v2/fa.json';
+import enBrokeragesMembersInfoV2 from '@/i18n/brokerages-members-info-v2/en.json';
 import faBrokeragesTradingOffices from '@/i18n/brokerages-trading-offices/fa.json';
 import enBrokeragesTradingOffices from '@/i18n/brokerages-trading-offices/en.json';
 import faBrokeragesTradingOfficesGuide from '@/i18n/brokerages-trading-offices-guide/fa.json';
@@ -93,6 +95,7 @@ export const DOMAIN_NAMESPACES = {
   'brokerages-legal-cases': faBrokeragesLegalCases,
   'brokerages-licenses': faBrokeragesLicenses,
   'brokerages-members-info': faBrokeragesMembersInfo,
+  'brokerages-members-info-v2': faBrokeragesMembersInfoV2,
   'brokerages-trading-offices': faBrokeragesTradingOffices,
   'brokerages-trading-offices-guide': faBrokeragesTradingOfficesGuide,
   'brokerages-trading-stations': faBrokeragesTradingStations,
@@ -132,6 +135,7 @@ export const DOMAIN_NAMESPACES = {
   'brokerages-legal-cases': enBrokeragesLegalCases,
   'brokerages-licenses': enBrokeragesLicenses,
   'brokerages-members-info': enBrokeragesMembersInfo,
+  'brokerages-members-info-v2': enBrokeragesMembersInfoV2,
   'brokerages-trading-offices': enBrokeragesTradingOffices,
   'brokerages-trading-offices-guide': enBrokeragesTradingOfficesGuide,
   'brokerages-trading-stations': enBrokeragesTradingStations,
