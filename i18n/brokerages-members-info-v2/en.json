@@ -48,10 +48,10 @@
     "status": "Employment status",
     "unit": "Business unit",
     "position": "Position",
-    "allStatuses": "All statuses",
-    "allUnits": "All business units",
-    "allPositions": "All positions",
-    "clear": "Clear"
+    "clear": "Clear",
+    "selectedCount": "{{count}} selected",
+    "noOptions": "No matching options.",
+    "clearCategory": "Clear this filter"
   },
   "actions": {
     "dependents": "Show details and dependents",
@@ -80,5 +80,8 @@
     "from": "Start date",
     "to": "End date",
     "open": "Ongoing"
+  },
+  "details": {
+    "title": "Person details"
   }
 }

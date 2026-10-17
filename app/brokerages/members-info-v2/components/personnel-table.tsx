@@ -18,6 +18,7 @@ import { DataGridPagination } from '@/components/ui/data-grid-pagination';
 import { DataGridTable } from '@/components/ui/data-grid-table';
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
+import { CollapsibleSection } from '@/components/common/collapsible-section';
 import { useTranslation } from '@/hooks/useTranslation';
 import {
   BUSINESS_UNITS,
@@ -99,8 +100,15 @@ export function PersonnelTable({ state, update, lang, canViewPersonalData }: Per
           expandedContent: (person: MockPersonnel) => (
             <div className="sticky start-0 w-[100cqw] divide-y divide-border">
               <MembershipEditForm person={person} lang={lang} />
-              <EmploymentHistoryPanel person={person} />
-              <DependentsPanel person={person} lang={lang} canViewPersonalData={canViewPersonalData} />
+              {/* As on the current page: the membership fields stay open, and the
+                  person details below them sit in one collapsible box that
+                  starts collapsed. */}
+              <div className="px-6 py-4">
+                <CollapsibleSection title={t('details.title')} defaultOpen={false}>
+                  <EmploymentHistoryPanel person={person} />
+                  <DependentsPanel person={person} lang={lang} canViewPersonalData={canViewPersonalData} />
+                </CollapsibleSection>
+              </div>
             </div>
           ),
         },

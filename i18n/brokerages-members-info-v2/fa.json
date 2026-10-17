@@ -48,10 +48,10 @@
     "status": "وضعیت اشتغال",
     "unit": "واحد سازمانی",
     "position": "سمت",
-    "allStatuses": "همه وضعیت‌ها",
-    "allUnits": "همه واحدها",
-    "allPositions": "همه سمت‌ها",
-    "clear": "پاک کردن"
+    "clear": "پاک کردن",
+    "selectedCount": "{{count}} مورد",
+    "noOptions": "گزینه‌ای یافت نشد.",
+    "clearCategory": "پاک کردن این فیلتر"
   },
   "actions": {
     "dependents": "نمایش جزئیات و افراد وابسته",
@@ -80,5 +80,8 @@
     "from": "تاریخ شروع",
     "to": "تاریخ پایان",
     "open": "جاری"
+  },
+  "details": {
+    "title": "جزئیات شخص"
   }
 }
