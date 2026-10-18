@@ -1,0 +1,83 @@
+{
+  "toolbar": {
+    "title": "Trading Offices (preview)",
+    "description": "New version: the selected brokerage's trading offices in one table, with search and filters"
+  },
+  "preview": {
+    "bannerTitle": "Preview - sample data only",
+    "bannerBody": "Nothing on this page is real or saved. It shows the layout of the new Trading Offices page for review. The current page is unchanged."
+  },
+  "access": {
+    "denied": "You do not have access to this page."
+  },
+  "table": {
+    "pickBrokerage": "Select a brokerage to see its trading offices.",
+    "empty": "No offices match the search and filters.",
+    "count": "{{count}} of {{total}} offices"
+  },
+  "columns": {
+    "name": "Office Name",
+    "type": "Office Type",
+    "code": "Office Code",
+    "manager": "Office Manager",
+    "actions": "Actions"
+  },
+  "values": {
+    "notRecorded": "Not recorded",
+    "unknown": "Unknown",
+    "inactive": "Inactive"
+  },
+  "filters": {
+    "search": "Search",
+    "searchPlaceholder": "Search by office name, office code or manager name",
+    "type": "Office Type",
+    "province": "Province",
+    "city": "City",
+    "clear": "Clear",
+    "selectedCount": "{{count}} selected",
+    "noOptions": "No options found.",
+    "clearCategory": "Clear this filter",
+    "locationHint": "Province and city are checked on the same address of an office."
+  },
+  "actions": {
+    "details": "Show office edit and details",
+    "edit": "Edit office"
+  },
+  "edit": {
+    "title": "Office information",
+    "managerPlaceholder": "Select the office manager",
+    "mockNotice": "Preview: saving here changes nothing.",
+    "mockSaved": "Preview: nothing was saved."
+  },
+  "details": {
+    "title": "Office details"
+  },
+  "addresses": {
+    "title": "Addresses ({{count}})",
+    "none": "No address is recorded for this office.",
+    "columns": {
+      "label": "Label",
+      "province": "Province",
+      "city": "City",
+      "street": "Address",
+      "postalCode": "Postal code"
+    },
+    "primary": "Primary"
+  },
+  "phones": {
+    "title": "Phones ({{count}})",
+    "none": "No phone is recorded for this office.",
+    "columns": {
+      "label": "Label",
+      "number": "Number"
+    },
+    "primary": "Primary"
+  },
+  "manager": {
+    "title": "Office manager",
+    "none": "No manager is recorded for this office.",
+    "name": "Full name",
+    "nationalId": "National ID",
+    "mobile": "Mobile"
+  }
+}
