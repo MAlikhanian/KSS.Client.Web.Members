@@ -79,5 +79,16 @@
     "name": "Full name",
     "nationalId": "National ID",
     "mobile": "Mobile"
+  },
+  "export": {
+    "button": "Export to Excel",
+    "error": "The Excel file could not be created.",
+    "header": "Confidential (preview sample data only). Exported by {{user}} at {{time}}, export {{id}}",
+    "sheetOffices": "Offices",
+    "sheetAddresses": "Addresses",
+    "employeeCount": "Number of employees",
+    "active": "Active",
+    "yes": "Yes",
+    "no": "No"
   }
 }

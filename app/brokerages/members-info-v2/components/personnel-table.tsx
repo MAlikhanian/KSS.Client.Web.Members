@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import { useSession } from 'next-auth/react';
 import {
   ColumnDef,
   ExpandedState,
@@ -19,7 +20,11 @@ import { DataGridTable } from '@/components/ui/data-grid-table';
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 import { CollapsibleSection } from '@/components/common/collapsible-section';
+import { useBrokerages } from '@/hooks/use-brokerages';
 import { useTranslation } from '@/hooks/useTranslation';
+import { ExportButton } from '../../_preview-export/export-button';
+import { downloadXlsx, exportFileName, exportLayer, newExportId } from '../../_preview-export/xlsx-export';
+import { buildPersonnelSheets } from '../export/build-personnel-export';
 import {
   BUSINESS_UNITS,
   POSITIONS,
@@ -42,9 +47,10 @@ interface PersonnelTableProps {
   update: (patch: Partial<PersonnelQueryState>) => void;
   lang: 'fa' | 'en';
   canViewPersonalData: boolean;
+  exportIdLast4?: boolean;
 }
 
-export function PersonnelTable({ state, update, lang, canViewPersonalData }: PersonnelTableProps) {
+export function PersonnelTable({ state, update, lang, canViewPersonalData, exportIdLast4 = false }: PersonnelTableProps) {
   const { t } = useTranslation('brokerages-members-info-v2');
   const [expanded, setExpanded] = useState<ExpandedState>({});
 
@@ -59,6 +65,43 @@ export function PersonnelTable({ state, update, lang, canViewPersonalData }: Per
       ),
     [all, state.q, state.status, state.unit, state.position, canViewPersonalData],
   );
+
+  const { data: session } = useSession();
+  // Same cached query as the brokerage picker: no extra request.
+  const { brokerages } = useBrokerages();
+
+  // Every row matching the current search and filters, across all pages.
+  const exportXlsx = async () => {
+    const now = new Date();
+    const exportId = newExportId(now.getTime());
+    const code = brokerages.find((b) => b.id === state.brokerageId)?.code || state.brokerageId;
+    const layer = exportLayer({ canViewPersonalData, maskMemberIdLast4: exportIdLast4 });
+    await downloadXlsx({
+      fileName: exportFileName('Personnel', code, now, exportId),
+      header: t('export.header', { user: session?.user?.id ?? '-', time: now.toISOString(), id: exportId }),
+      rightToLeft: lang === 'fa',
+      sheets: buildPersonnelSheets(filtered, layer, lang, {
+        sheetPersonnel: t('export.sheetPersonnel'),
+        sheetDependents: t('export.sheetDependents'),
+        fullName: t('columns.fullName'),
+        nationalId: t('columns.nationalId'),
+        brokerageLocation: t('columns.brokerageLocation'),
+        businessUnit: t('columns.businessUnit'),
+        position: t('columns.position'),
+        employmentStatus: t('columns.employmentStatus'),
+        dependentName: t('export.dependentName'),
+        relationship: t('dependents.columns.relationship'),
+        dependentNationalId: t('export.dependentNationalId'),
+        dateOfBirth: t('dependents.columns.dateOfBirth'),
+        active: t('export.active'),
+        yes: t('export.yes'),
+        no: t('export.no'),
+        notRecorded: t('values.notRecorded'),
+        unknown: t('values.unknown'),
+        status: (s) => t(`status.${s}`),
+      }),
+    });
+  };
 
   const columns = useMemo<ColumnDef<MockPersonnel>[]>(() => {
     const lookupLabel = (map: Lookup, key: string | null) => {
@@ -227,6 +270,12 @@ export function PersonnelTable({ state, update, lang, canViewPersonalData }: Per
               <span className="text-sm text-muted-foreground">
                 {t('table.count', { count: filtered.length, total: all.length })}
               </span>
+              <ExportButton
+                label={t('export.button')}
+                errorMessage={t('export.error')}
+                disabled={filtered.length === 0}
+                onExport={exportXlsx}
+              />
             </CardToolbar>
           </CardHeader>
           <CardTable>

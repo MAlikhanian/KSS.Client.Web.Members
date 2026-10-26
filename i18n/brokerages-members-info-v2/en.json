@@ -6,7 +6,8 @@
   "preview": {
     "bannerTitle": "Preview - sample data only",
     "bannerBody": "Nothing on this page is real or saved. It shows the layout of the new Members Information page for review. The current page is unchanged.",
-    "restrictedToggle": "Preview as a user without permission for national IDs and dependents"
+    "restrictedToggle": "Preview as a user without permission for national IDs and dependents",
+    "exportLast4Toggle": "Excel export: only the last four digits of the person's national ID (does not apply to dependents)"
   },
   "access": {
     "denied": "You do not have access to this page."
@@ -83,5 +84,17 @@
   },
   "details": {
     "title": "Person details"
+  },
+  "export": {
+    "button": "Export to Excel",
+    "error": "The Excel file could not be created.",
+    "header": "Confidential: contains personal data (preview sample data only). Exported by {{user}} at {{time}}, export {{id}}",
+    "sheetPersonnel": "Personnel",
+    "sheetDependents": "Dependents",
+    "dependentName": "Dependent name",
+    "dependentNationalId": "Dependent national ID",
+    "active": "Active",
+    "yes": "Yes",
+    "no": "No"
   }
 }

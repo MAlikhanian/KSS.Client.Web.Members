@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import { useSession } from 'next-auth/react';
 import {
   ColumnDef,
   ExpandedState,
@@ -20,7 +21,11 @@ import { DataGridTable } from '@/components/ui/data-grid-table';
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 import { CollapsibleSection } from '@/components/common/collapsible-section';
+import { useBrokerages } from '@/hooks/use-brokerages';
 import { useTranslation } from '@/hooks/useTranslation';
+import { ExportButton } from '../../_preview-export/export-button';
+import { downloadXlsx, exportFileName, newExportId } from '../../_preview-export/xlsx-export';
+import { buildOfficesSheets } from '../export/build-offices-export';
 import { OFFICE_TYPES, buildMockOffices, type MockOffice } from '../mock/offices.mock';
 import { filterOffices } from '../mock/filter-offices';
 import { PAGE_SIZES, type OfficesQueryState } from '../hooks/use-offices-query-state';
@@ -48,6 +53,42 @@ export function OfficesTable({ state, update, lang }: OfficesTableProps) {
     () => filterOffices(all, { q: state.q, type: state.type, province: state.province, city: state.city }),
     [all, state.q, state.type, state.province, state.city],
   );
+
+  const { data: session } = useSession();
+  // Same cached query as the brokerage picker: no extra request.
+  const { brokerages } = useBrokerages();
+
+  // Every office matching the current search and filters, across all pages.
+  const exportXlsx = async () => {
+    const now = new Date();
+    const exportId = newExportId(now.getTime());
+    const code = brokerages.find((b) => b.id === state.brokerageId)?.code || state.brokerageId;
+    await downloadXlsx({
+      fileName: exportFileName('TradingOffices', code, now, exportId),
+      header: t('export.header', { user: session?.user?.id ?? '-', time: now.toISOString(), id: exportId }),
+      rightToLeft: lang === 'fa',
+      sheets: buildOfficesSheets(filtered, lang, {
+        sheetOffices: t('export.sheetOffices'),
+        sheetAddresses: t('export.sheetAddresses'),
+        name: t('columns.name'),
+        type: t('columns.type'),
+        code: t('columns.code'),
+        manager: t('columns.manager'),
+        employeeCount: t('export.employeeCount'),
+        active: t('export.active'),
+        addressLabel: t('addresses.columns.label'),
+        province: t('addresses.columns.province'),
+        city: t('addresses.columns.city'),
+        street: t('addresses.columns.street'),
+        postalCode: t('addresses.columns.postalCode'),
+        primary: t('addresses.primary'),
+        yes: t('export.yes'),
+        no: t('export.no'),
+        notRecorded: t('values.notRecorded'),
+        unknown: t('values.unknown'),
+      }),
+    });
+  };
 
   const columns = useMemo<ColumnDef<MockOffice>[]>(() => {
     const muted = (text: string) => <span className="text-muted-foreground">{text}</span>;
@@ -212,6 +253,12 @@ export function OfficesTable({ state, update, lang }: OfficesTableProps) {
             <span className="text-sm text-muted-foreground">
               {t('table.count', { count: filtered.length, total: all.length })}
             </span>
+            <ExportButton
+              label={t('export.button')}
+              errorMessage={t('export.error')}
+              disabled={filtered.length === 0}
+              onExport={exportXlsx}
+            />
           </CardToolbar>
         </CardHeader>
         <CardTable>

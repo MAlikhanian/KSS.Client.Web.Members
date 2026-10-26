@@ -35,6 +35,10 @@ export function MembersInfoV2Content() {
   // Stage-1 preview of how a viewer WITHOUT permission for national ids and
   // dependents sees the page. Real permission checks come in a later stage.
   const [previewRestricted, setPreviewRestricted] = useState(false);
+  // Export option, OFF by default: the member's national id as its last four
+  // digits only. It never applies to dependents, and never adds anything for a
+  // viewer without personal-data access.
+  const [exportIdLast4, setExportIdLast4] = useState(false);
 
   // The brokerage lives in the URL too, so returning to the page (or reloading
   // it) brings back the same brokerage with its search and filters.
@@ -97,12 +101,18 @@ export function MembersInfoV2Content() {
             <Label htmlFor="v2-preview-restricted">{t('preview.restrictedToggle')}</Label>
           </div>
 
+          <div className="flex items-center gap-2.5">
+            <Switch id="v2-export-last4" checked={exportIdLast4} onCheckedChange={setExportIdLast4} />
+            <Label htmlFor="v2-export-last4">{t('preview.exportLast4Toggle')}</Label>
+          </div>
+
           {brokerageId ? (
             <PersonnelTable
               state={{ ...state, brokerageId }}
               update={update}
               lang={lang}
               canViewPersonalData={!previewRestricted}
+              exportIdLast4={exportIdLast4}
             />
           ) : (
             <div className="py-8 text-center text-muted-foreground">{t('table.pickBrokerage')}</div>
