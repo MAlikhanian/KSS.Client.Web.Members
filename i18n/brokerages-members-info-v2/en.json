@@ -96,5 +96,8 @@
     "active": "Active",
     "yes": "Yes",
     "no": "No"
+  },
+  "personInfo": {
+    "restricted": "You do not have permission to see this person's information."
   }
 }

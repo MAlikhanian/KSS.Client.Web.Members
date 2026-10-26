@@ -11,7 +11,7 @@ import {
   PaginationState,
   useReactTable,
 } from '@tanstack/react-table';
-import { ChevronDown, ChevronLeft, ChevronRight, Pencil } from 'lucide-react';
+import { ChevronDown, ChevronLeft, ChevronRight, Pencil, ShieldAlert } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardFooter, CardHeader, CardTable, CardToolbar } from '@/components/ui/card';
 import { DataGrid } from '@/components/ui/data-grid';
@@ -39,8 +39,14 @@ import { EmploymentHistoryPanel } from './employment-history-panel';
 import { EmploymentStatusBadge } from './employment-status-badge';
 import { MembershipEditForm } from './membership-edit-form';
 import { PersonnelFilters } from './personnel-filters';
+import { PersonDetailsView } from '../person-details/person-details-view';
 
 type Lookup = Record<string, { fa: string; en: string }>;
+
+// The expanded row shows the membership form, then (while this is true) the
+// preview's own details box, then the current page's person information block.
+// Set to false and the row matches the current page exactly.
+const SHOW_PREVIEW_DETAILS_BOX = true;
 
 interface PersonnelTableProps {
   state: PersonnelQueryState;
@@ -143,14 +149,28 @@ export function PersonnelTable({ state, update, lang, canViewPersonalData, expor
           expandedContent: (person: MockPersonnel) => (
             <div className="sticky start-0 w-[100cqw] divide-y divide-border">
               <MembershipEditForm person={person} lang={lang} />
-              {/* As on the current page: the membership fields stay open, and the
-                  person details below them sit in one collapsible box that
-                  starts collapsed. */}
+              {/* The preview's own details box (employment at this brokerage and
+                  dependents), collapsed, kept while SHOW_PREVIEW_DETAILS_BOX. */}
+              {SHOW_PREVIEW_DETAILS_BOX && (
+                <div className="px-6 py-4">
+                  <CollapsibleSection title={t('details.title')} defaultOpen={false}>
+                    <EmploymentHistoryPanel person={person} />
+                    <DependentsPanel person={person} lang={lang} canViewPersonalData={canViewPersonalData} />
+                  </CollapsibleSection>
+                </div>
+              )}
+              {/* The person information block of the current Members Info page,
+                  collapsed as there. A viewer without personal-data permission
+                  sees only a notice, as for dependents. */}
               <div className="px-6 py-4">
-                <CollapsibleSection title={t('details.title')} defaultOpen={false}>
-                  <EmploymentHistoryPanel person={person} />
-                  <DependentsPanel person={person} lang={lang} canViewPersonalData={canViewPersonalData} />
-                </CollapsibleSection>
+                {canViewPersonalData ? (
+                  <PersonDetailsView person={person} />
+                ) : (
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <ShieldAlert className="size-4" />
+                    {t('personInfo.restricted')}
+                  </div>
+                )}
               </div>
             </div>
           ),
